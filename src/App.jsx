@@ -330,7 +330,7 @@ const PRODUCTS = [
     image: "/src/assets/images/products/20.png",
     affiliateUrl: "https://amzn.to/4xkmiAq",
     description:
-      "Compact travel organizer pouch with double-layer storage, waterproof Oxford fabric, secure zip closure, and multiple compartments for cables, chargers, power banks, USB drives, SD cards, and everyday tech accessories.",
+      "Compact travel organizer pouch with double-layer storage, waterproof Oxford fabric, secure zip closure.",
     features: [
       "Compact and lightweight design for easy portability",
       "Premium waterproof Oxford fabric with protective padding",
@@ -338,8 +338,7 @@ const PRODUCTS = [
       "Elastic loops keep cables and accessories secure",
       "Smooth zipper closure for safe storage",
       "Perfect for chargers, power banks, USB drives and gadgets",
-      "Convenient hand strap for travel and daily use",
-      "Ideal for students, professionals and frequent travelers"
+      "Convenient hand strap for travel and daily use"
     ],
     featured: true,
   },
@@ -351,36 +350,33 @@ const PRODUCTS = [
     image: "/src/assets/images/products/21.png",
     affiliateUrl: "https://amzn.to/4oyjTOz",
     description:
-      "Modern foldable storage cabinet with stackable design, dustproof doors, spacious compartments, and tool-free assembly. Perfect for organizing clothes, toys, books, documents, kitchen supplies, and household essentials while maintaining a clean and elegant look.",
+      "Modern foldable storage cabinet with stackable design. Perfect for organizing clothes, toys, books, documents, kitchen supplies, and household essentials while maintaining a clean and elegant look.",
     features: [
-      "Foldable design for easy storage when not in use",
       "Stackable modular structure to maximize vertical space",
       "Large capacity compartments for efficient organization",
-      "Dustproof flip-door design keeps items clean and protected",
+      "Dustproof flip-door design",
       "Durable premium plastic construction for long-lasting use",
       "Quick tool-free assembly in minutes",
-      "Modern minimalist style complements any home décor",
-      "Ideal for bedrooms, living rooms, offices, kitchens and dorms"
+      "Modern minimalist style complements any home décor"
     ],
     featured: true,
   },
   {
     id: 22,
-    title: "4 Universal Socket Power Strip",
+    title: "Socket Power Strip",
     category: "Electronics",
     tag: "Electrical Safety",
     image: "/src/assets/images/products/22.png",
     affiliateUrl: "https://amzn.to/4vH2WUp",
     description:
-      "Premium 4 universal socket power strip with surge protection, thermal trip technology, safety shutters, fire-resistant construction, and a master switch with LED indicator. Designed to power multiple devices safely at home, office, study rooms, and workstations.",
+      "Premium 4 universal socket power strip with surge protection from voltage spikes. Designed to power multiple devices safely at home, office, study rooms, and workstations.",
     features: [
       "4 universal sockets compatible with multiple plug types",
       "Thermal trip technology automatically cuts power during overload",
-      "Built-in surge protection safeguards devices from voltage spikes",
       "Child safety shutters help prevent accidental contact",
       "Master switch with LED indicator for easy power control",
-      "Fire-resistant material for enhanced safety and durability",
-      "1.8-meter long cable offers flexible placement options",
+      "Fire-resistant material",
+      "1.8-meter long cable",
       "Ideal for laptops, chargers, TVs, gaming setups and home offices"
     ],
     featured: true,
@@ -393,7 +389,7 @@ const PRODUCTS = [
     image: "/src/assets/images/products/23.png",
     affiliateUrl: "https://amzn.to/4461K12",
     description:
-      "Elegant bird-shaped wall light featuring a premium white and gold finish, adjustable lighting modes, and energy-efficient LED technology. Perfect for enhancing bedrooms, living rooms, hallways, offices, and modern interior spaces.",
+      "Elegant bird-shaped wall light featuring a premium white and gold finish.",
     features: [
       "3 adjustable lighting modes: White, Warm White and Natural White",
       "Premium iron construction for durability and long-lasting use",
@@ -401,9 +397,7 @@ const PRODUCTS = [
       "Modern decorative bird-inspired design",
       "Energy-efficient LED lighting technology",
       "Perfect 9-inch size for versatile placement",
-      "Creates warm and inviting ambient lighting",
       "Ideal for bedrooms, living rooms, hallways and offices",
-      "Low-maintenance and long-lasting performance",
       "Quick and easy wall-mount installation"
     ],
     featured: true,
@@ -416,17 +410,14 @@ const PRODUCTS = [
     image: "/src/assets/images/products/24.png",
     affiliateUrl: "https://amzn.to/4e5sBjL",
     description:
-      "Beautiful handmade macrame sling bag crafted from premium cotton rope with soft inner lining. Features a timeless boho-inspired design perfect for everyday use",
+      "Beautiful handmade macrame sling bag crafted from premium cotton rope with soft inner lining.",
     features: [
       "Handcrafted using premium 3mm cotton macrame rope",
-      "Spacious interior for phone, wallet, keys and essentials",
+      "Spacious interior for essentials",
       "Premium quality cotton lining with secure zipper closure",
       "Comfortable 45-inch sling strap for easy carrying",
-      "Decorative tassel detailing for a stylish boho look",
       "Lightweight and durable construction",
-      "Perfect for travel, shopping, festivals and casual outings",
-      "Complements both modern and vintage fashion styles",
-      "Thoughtfully handmade with intricate macrame weaving"
+      "Perfect for travel, shopping, festivals and casual outings"
     ],
     featured: true,
   },
