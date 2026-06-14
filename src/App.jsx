@@ -421,6 +421,44 @@ const PRODUCTS = [
     ],
     featured: true,
   },
+  {
+    id: 25,
+    title: "Homify 3-Tier Stainless Steel Kitchen Organizer Rack",
+    category: "Home & Kitchen",
+    tag: "Kitchen Storage",
+    image: "/src/assets/images/products/25.png",
+    affiliateUrl: "https://amzn.to/4v2k9Yy",
+    description:
+      "Space-saving 3-tier stainless steel corner rack designed to organize kitchen essentials while maximizing countertop, cabinet, and corner space.",
+    features: [
+      "3-tier design for efficient vertical storage",
+      "Premium rust-resistant stainless steel construction",
+      "Space-saving corner-friendly design",
+      "Stable free-standing structure with no installation required",
+      "Ideal for storing plates, bowls, jars, spices and utensils",
+      "Easy assembly with durable everyday support"
+    ],
+    featured: true,
+  },
+  {
+    id: 26,
+    title: "FLYNGO Anti-Theft Sling Bag",
+    category: "Travel & Bags",
+    tag: "Travel Essential",
+    image: "/src/assets/images/products/26.png",
+    affiliateUrl: "https://amzn.to/4vRSR7m",
+    description:
+      "Stylish anti-theft sling bag featuring a built-in password lock, USB charging port, and durable construction. Perfect for travel, commuting, and everyday carry.",
+    features: [
+      "Built-in anti-theft password lock for added security",
+      "External USB charging port for convenient charging",
+      "Versatile sling, crossbody, and chest bag design",
+      "Durable polyester material for everyday use",
+      "Lightweight and comfortable for travel and commuting",
+      "Suitable for both men and women"
+    ],
+    featured: true,
+  },
 ];
 
 const CATEGORIES = ["All", ...new Set(PRODUCTS.map((p) => p.category))];
