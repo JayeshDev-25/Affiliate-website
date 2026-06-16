@@ -10,6 +10,34 @@ import ProductModal from "./components/ProductModal";
 import ScrollToTop from "./components/ScrollToTop";
 // Product Images
 import img_1 from "./assets/images/products/1.jpg";
+import img_2 from "./assets/images/products/2.jpg";
+import img_3 from "./assets/images/products/3.jpg";
+import img_4 from "./assets/images/products/4.jpg";
+import img_5 from "./assets/images/products/5.jpg";
+import img_6 from "./assets/images/products/6.jpg";
+import img_7 from "./assets/images/products/7.jpg";
+import img_8 from "./assets/images/products/8.jpg";
+import img_9 from "./assets/images/products/9.jpg";
+import img_10 from "./assets/images/products/10.jpg";
+import img_11 from "./assets/images/products/11.jpg";
+import img_12 from "./assets/images/products/12.jpg";
+import img_13 from "./assets/images/products/13.jpg";
+import img_14 from "./assets/images/products/14.jpg";
+import img_15 from "./assets/images/products/15.jpg";
+import img_16 from "./assets/images/products/16.jpg";
+import img_17 from "./assets/images/products/17.jpg";
+import img_18 from "./assets/images/products/18.png";
+import img_19 from "./assets/images/products/19.png";
+import img_20 from "./assets/images/products/20.png";
+import img_21 from "./assets/images/products/21.png";
+import img_22 from "./assets/images/products/22.png";
+import img_23 from "./assets/images/products/23.png";
+import img_24 from "./assets/images/products/24.png";
+import img_25 from "./assets/images/products/25.png";
+import img_26 from "./assets/images/products/26.png";
+import img_27 from "./assets/images/products/27.png";
+import img_28 from "./assets/images/products/28.png";
+import img_29 from "./assets/images/products/29.png";
 //
 const PRODUCTS = [
   {
@@ -29,7 +57,7 @@ const PRODUCTS = [
     title: "Zilch On Cloud 9 Face Wash",
     category: "Beauty & Personal Care",
     tag: "Editor's Pick",
-    image: "/src/assets/images/products/2.jpg",
+    image: img_2,
     affiliateUrl: "https://amzn.to/3RGM818",
     description:
       "A gentle yet effective daily face wash. Sulphate-free formula that cleanses without stripping moisture. Perfect for oily to combination skin.",
@@ -41,7 +69,7 @@ const PRODUCTS = [
     title: "Zebronics NS1000 Laptop Stand",
     category: "Tech Accessories",
     tag: "Top Pick",
-    image: "/src/assets/images/products/3.jpg",
+    image: img_3,
     affiliateUrl: "https://amzn.to/49PjLEr",
     description:
       "An incredibly affordable ergonomic laptop stand. Reduces neck strain during long work sessions. Foldable and portable — fits any bag.",
@@ -53,7 +81,7 @@ const PRODUCTS = [
     title: "Presto! Garbage Bags (Pack of 3)",
     category: "Home & Kitchen",
     tag: null,
-    image: "/src/assets/images/products/4.jpg",
+    image: img_4,
     affiliateUrl: "https://amzn.to/4wVrqe7",
     description:
       "Strong, odor-control garbage bags. Thick enough to hold heavy waste without tearing. A practical home essential you'll reorder monthly.",
@@ -65,7 +93,7 @@ const PRODUCTS = [
     title: "American Tourister Valex Backpack",
     category: "Travel & Bags",
     tag: "Best Deal",
-    image: "/src/assets/images/products/5.jpg",
+    image: img_5,
     affiliateUrl: "https://amzn.to/4dRuIGn",
     description:
       "Solid daily backpack from a trusted brand. Laptop compartment fits up to 15.6\", with organized pockets and comfortable padded straps.",
@@ -77,7 +105,7 @@ const PRODUCTS = [
     title: "Adhesive Soap Holder for Bathroom",
     category: "Home Decor",
     tag: null,
-    image: "/src/assets/images/products/6.jpg",
+    image: img_6,
     affiliateUrl: "https://amzn.to/4wPhh2u",
     description:
       "No-drill wall mount soap dish with strong adhesive backing. Keeps your bathroom organized without damaging tiles. Holds up to 1kg.",
@@ -89,7 +117,7 @@ const PRODUCTS = [
     title: "Simple Kind to Skin Refreshing Facial Wash",
     category: "Beauty & Personal Care",
     tag: null,
-    image: "/src/assets/images/products/7.jpg",
+    image: img_7,
     affiliateUrl: "https://amzn.to/4dQDDt2",
     description:
       "A gentle, soap-free facial cleanser that removes impurities while maintaining your skin's natural moisture. Enriched with Vitamin E and Pro-Vitamin B5 for soft, refreshed and hydrated skin.",
@@ -106,7 +134,7 @@ const PRODUCTS = [
     title: "Zebronics 200HB USB 3.0 4 Port Hub",
     category: "Computer Accessories",
     tag: null,
-    image: "/src/assets/images/products/8.jpg",
+    image: img_8,
     affiliateUrl: "https://amzn.to/4dTEfNa",
     description:
       "Expand your device connectivity with this compact 4-port USB hub. Features one USB 3.0 port and three USB 2.0 ports for fast data transfer and seamless plug-and-play usage.",
@@ -123,7 +151,7 @@ const PRODUCTS = [
     title: "Errol 2835 LED Strip Lights (3 Meter)",
     category: "Home Decor",
     tag: null,
-    image: "/src/assets/images/products/9.jpg",
+    image: img_9,
     affiliateUrl: "https://amzn.to/4fPWmGq",
     description:
       "Bright white LED strip light with 120 LEDs per meter, ideal for ceilings, TV backlighting, festive decorations, and home ambiance.",
@@ -141,7 +169,7 @@ const PRODUCTS = [
     title: "Arctic Fox Pureview Transparent Wireless Mouse",
     category: "Computer Accessories",
     tag: null,
-    image: "/src/assets/images/products/10.jpg",
+    image: img_10,
     affiliateUrl: "https://amzn.to/3SdtZbm",
     description:
       "Stylish transparent wireless mouse with triple-mode connectivity, rechargeable battery, adjustable DPI, and ergonomic design for work and everyday use.",
@@ -159,7 +187,7 @@ const PRODUCTS = [
     title: "Ambrane Unbreakable 3A Fast Charging Type-C Cable (1.5m)",
     category: "Computer Accessories",
     tag: null,
-    image: "/src/assets/images/products/11.jpg",
+    image: img_11,
     affiliateUrl: "https://amzn.to/43xoRRW",
     description:
       "Durable braided Type-C cable with 3A fast charging, 480Mbps data transfer, and wide compatibility for smartphones, tablets, and more.",
@@ -177,7 +205,7 @@ const PRODUCTS = [
     title: "2 Tier Wooden Tabletop Book Rack Desk Organizer Shelf",
     category: "Home Organization",
     tag: null,
-    image: "/src/assets/images/products/12.jpg",
+    image: img_12,
     affiliateUrl: "https://amzn.to/3S6ZP9J",
     description:
       "Modern Z-shaped tabletop organizer with two spacious tiers, perfect for books, office supplies, décor items, and everyday essentials.",
@@ -195,7 +223,7 @@ const PRODUCTS = [
     title: "DIVIJA STORE Foldable Multipurpose Laptop Table",
     category: "Stationery & Office",
     tag: null,
-    image: "/src/assets/images/products/13.jpg",
+    image: img_13,
     affiliateUrl: "https://amzn.to/4uCRklb",
     description:
       "Portable foldable laptop table with cup holder, ergonomic design, and non-slip legs, perfect for work, study, breakfast, or entertainment.",
@@ -213,7 +241,7 @@ const PRODUCTS = [
     title: "Portronics Clamp M4 Car Phone Holder Stand",
     category: "Tech Accessories",
     tag: null,
-    image: "/src/assets/images/products/14.jpg",
+    image: img_14,
     affiliateUrl: "https://amzn.to/4ulFGdH",
     description:
       "Secure car phone holder with powerful suction cup, strong grip, shockproof build, and adjustable viewing angle for safer driving and hands-free navigation.",
@@ -232,7 +260,7 @@ const PRODUCTS = [
     title: "Olivia Depishine Instant Radiance Face Wash",
     category: "Beauty & Personal Care",
     tag: null,
-    image: "/src/assets/images/products/15.jpg",
+    image: img_15,
     affiliateUrl: "https://amzn.to/4uTYmST",
     description:
       "Brightening face wash enriched with Kojic Acid, Vitamin C, and Vitamin E that deeply cleanses pores, removes dirt and excess oil, and helps reveal smoother, more radiant-looking skin.",
@@ -251,7 +279,7 @@ const PRODUCTS = [
     title: "Dyazo Water Resistant Laptop Sleeve with Handle",
     category: "Tech Accessories",
     tag: null,
-    image: "/src/assets/images/products/16.jpg",
+    image: img_16,
     affiliateUrl: "https://amzn.to/4vEmJUF",
     description:
       "Water-resistant laptop sleeve with soft velvet lining, multiple accessory pockets, and a convenient top handle. Designed to protect laptops and notebooks from scratches, shocks, and daily wear.",
@@ -270,7 +298,7 @@ const PRODUCTS = [
     title: "ZEBRONICS Freego Wireless Mouse",
     category: "Computer Accessories",
     tag: null,
-    image: "/src/assets/images/products/17.jpg",
+    image: img_17,
     affiliateUrl: "https://amzn.to/4ocvX87",
     description:
       "Ergonomic wireless mouse with 2.4GHz connectivity, adjustable 3200 DPI precision, power-saving mode, and plug-and-play USB nano receiver for seamless productivity.",
@@ -289,7 +317,7 @@ const PRODUCTS = [
     title: "Vintage PU Leather Journal",
     category: "Stationery & Office",
     tag: "Aesthetic",
-    image: "/src/assets/images/products/18.png",
+    image: img_18,
     affiliateUrl: "https://amzn.to/49TJPOG",
     description:
       "Premium PU leather journal with elegant metal coin bookmark",
@@ -309,7 +337,7 @@ const PRODUCTS = [
     title: "Zouk Women's Office Laptop Bag",
     category: "Tech Accessories",
     tag: "Best Seller",
-    image: "/src/assets/images/products/19.png",
+    image: img_19,
     affiliateUrl: "https://amzn.to/3S2huQ0",
     description:
       "Stylish office bag designed for modern women featuring ethnic-inspired artwork",
@@ -329,7 +357,7 @@ const PRODUCTS = [
     title: "Travel Organizer Pouch",
     category: "Tech Accessories",
     tag: "Travel Essential",
-    image: "/src/assets/images/products/20.png",
+    image: img_20,
     affiliateUrl: "https://amzn.to/4xkmiAq",
     description:
       "Compact travel organizer pouch with double-layer storage, waterproof Oxford fabric, secure zip closure.",
@@ -349,7 +377,7 @@ const PRODUCTS = [
     title: "Foldable Storage Cabinet",
     category: "Home Organization",
     tag: "Space Saving",
-    image: "/src/assets/images/products/21.png",
+    image: img_21,
     affiliateUrl: "https://amzn.to/4oyjTOz",
     description:
       "Modern foldable storage cabinet with stackable design. Perfect for organizing clothes, toys, books, documents, kitchen supplies, and household essentials while maintaining a clean and elegant look.",
@@ -368,7 +396,7 @@ const PRODUCTS = [
     title: "Socket Power Strip",
     category: "Electronics",
     tag: "Electrical Safety",
-    image: "/src/assets/images/products/22.png",
+    image: img_22,
     affiliateUrl: "https://amzn.to/4vH2WUp",
     description:
       "Premium 4 universal socket power strip with surge protection from voltage spikes. Designed to power multiple devices safely at home, office, study rooms, and workstations.",
@@ -388,7 +416,7 @@ const PRODUCTS = [
     title: "Luxury Bird Wall Light",
     category: "Home Decor",
     tag: "Modern Lighting",
-    image: "/src/assets/images/products/23.png",
+    image: img_23,
     affiliateUrl: "https://amzn.to/4461K12",
     description:
       "Elegant bird-shaped wall light featuring a premium white and gold finish.",
@@ -409,7 +437,7 @@ const PRODUCTS = [
     title: "Handmade Macrame Sling Bag",
     category: "Women's Fashion",
     tag: "Boho Chic",
-    image: "/src/assets/images/products/24.png",
+    image: img_24,
     affiliateUrl: "https://amzn.to/4e5sBjL",
     description:
       "Beautiful handmade macrame sling bag crafted from premium cotton rope with soft inner lining.",
@@ -428,7 +456,7 @@ const PRODUCTS = [
     title: "Homify 3-Tier Stainless Steel Kitchen Organizer Rack",
     category: "Home & Kitchen",
     tag: "Kitchen Storage",
-    image: "/src/assets/images/products/25.png",
+    image: img_25,
     affiliateUrl: "https://amzn.to/4v2k9Yy",
     description:
       "Space-saving 3-tier stainless steel corner rack designed to organize kitchen essentials while maximizing countertop, cabinet, and corner space.",
@@ -447,7 +475,7 @@ const PRODUCTS = [
     title: "FLYNGO Anti-Theft Sling Bag",
     category: "Travel & Bags",
     tag: "Travel Essential",
-    image: "/src/assets/images/products/26.png",
+    image: img_26,
     affiliateUrl: "https://amzn.to/4vRSR7m",
     description:
       "Stylish anti-theft sling bag featuring a built-in password lock, USB charging port, and durable construction. Perfect for travel, commuting, and everyday carry.",
@@ -466,7 +494,7 @@ const PRODUCTS = [
     title: "PUMA Women Smasher Sneaker",
     category: "Women's Fashion",
     tag: "Women's Footwear",
-    image: "/src/assets/images/products/27.png",
+    image: img_27,
     affiliateUrl: "https://amzn.to/43EbpvI",
     description:
       "Stylish and lightweight women's sneaker featuring a classic lace-up design and versatile Rose Dust color for everyday comfort and casual wear.",
@@ -485,7 +513,7 @@ const PRODUCTS = [
     title: "HOMIFLY 3-Layer Wall-Mounted Storage Cabinet",
     category: "Home Organization",
     tag: "Storage Solution",
-    image: "/src/assets/images/products/28.png",
+    image: img_28,
     affiliateUrl: "https://amzn.to/43vTqrl",
     description:
       "Space-saving wall-mounted storage cabinet with a no-drill installation design, dustproof doors, and versatile 3-layer storage for kitchens, bathrooms, laundry rooms, and more.",
@@ -504,7 +532,7 @@ const PRODUCTS = [
     title: "Webelkart Premium Home Wooden Key Holder",
     category: "Home Organization",
     tag: "Wall Organizer",
-    image: "/src/assets/images/products/29.png",
+    image: img_29,
     affiliateUrl: "https://amzn.to/3QHcShS",
     description:
       "Decorative wooden key holder featuring a stylish 'Home' design and 7 hooks to keep keys, keychains, and small essentials organized while enhancing your wall décor.",
