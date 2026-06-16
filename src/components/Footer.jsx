@@ -15,13 +15,13 @@ const Footer = () => {
                   <rect x="11" y="11" width="7" height="7" rx="1.5" fill="currentColor" opacity="0.9" />
                 </svg>
               </div>
-              <span>Budget<span className="logo-accent">Tech</span> Picks</span>
+              <span>Budget <span className="logo-accent">Picks</span></span>
             </div>
             <p className="footer-tagline">
               Product recommendations from Amazon India.
             </p>
             <p className="footer-disclosure">
-              As an Amazon Affiliate, we earn from qualifying purchases. This doesn't affect our editorial independence.
+              As an Amazon Associate, we earn from qualifying purchases. Product recommendations are selected independently.
             </p>
           </div>
 

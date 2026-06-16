@@ -40,7 +40,7 @@ const Navbar = ({ darkMode, onToggleDark, searchQuery, onSearchChange }) => {
                 <rect x="11" y="11" width="7" height="7" rx="1.5" fill="currentColor" opacity="0.9" />
               </svg>
             </div>
-            <span>Budget<span className="logo-accent">Tech</span> Picks</span>
+            <span>Budget <span className="logo-accent">Picks</span> </span>
           </a>
 
           <ul className="nav-links" role="list">

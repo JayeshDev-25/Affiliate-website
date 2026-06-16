@@ -73,7 +73,7 @@ const PRODUCTS = [
   {
     id: 6,
     title: "Adhesive Soap Holder for Bathroom",
-    category: "Home & Bathroom",
+    category: "Home Decor",
     tag: null,
     image: "/src/assets/images/products/6.jpg",
     affiliateUrl: "https://amzn.to/4wPhh2u",
@@ -173,7 +173,7 @@ const PRODUCTS = [
   {
     id: 12,
     title: "2 Tier Wooden Tabletop Book Rack Desk Organizer Shelf",
-    category: "Home & Living",
+    category: "Home Organization",
     tag: null,
     image: "/src/assets/images/products/12.jpg",
     affiliateUrl: "https://amzn.to/3S6ZP9J",
@@ -191,7 +191,7 @@ const PRODUCTS = [
   {
     id: 13,
     title: "DIVIJA STORE Foldable Multipurpose Laptop Table",
-    category: "Home & Living",
+    category: "Stationery & Office",
     tag: null,
     image: "/src/assets/images/products/13.jpg",
     affiliateUrl: "https://amzn.to/4uCRklb",
@@ -209,7 +209,7 @@ const PRODUCTS = [
   {
     id: 14,
     title: "Portronics Clamp M4 Car Phone Holder Stand",
-    category: "Car Accessories",
+    category: "Tech Accessories",
     tag: null,
     image: "/src/assets/images/products/14.jpg",
     affiliateUrl: "https://amzn.to/4ulFGdH",
@@ -280,7 +280,7 @@ const PRODUCTS = [
       "Automatic power-saving mode for longer battery life",
       "USB nano receiver with plug-and-play setup"
     ],
-    featured: true,
+    featured: false,
   },
   {
     id: 18,
@@ -345,7 +345,7 @@ const PRODUCTS = [
   {
     id: 21,
     title: "Foldable Storage Cabinet",
-    category: "Home & Living",
+    category: "Home Organization",
     tag: "Space Saving",
     image: "/src/assets/images/products/21.png",
     affiliateUrl: "https://amzn.to/4oyjTOz",
@@ -405,7 +405,7 @@ const PRODUCTS = [
   {
     id: 24,
     title: "Handmade Macrame Sling Bag",
-    category: "Fashion Accessories",
+    category: "Women's Fashion",
     tag: "Boho Chic",
     image: "/src/assets/images/products/24.png",
     affiliateUrl: "https://amzn.to/4e5sBjL",
@@ -456,6 +456,63 @@ const PRODUCTS = [
       "Durable polyester material for everyday use",
       "Lightweight and comfortable for travel and commuting",
       "Suitable for both men and women"
+    ],
+    featured: true,
+  },
+  {
+    id: 27,
+    title: "PUMA Women Smasher Sneaker",
+    category: "Women's Fashion",
+    tag: "Women's Footwear",
+    image: "/src/assets/images/products/27.png",
+    affiliateUrl: "https://amzn.to/43EbpvI",
+    description:
+      "Stylish and lightweight women's sneaker featuring a classic lace-up design and versatile Rose Dust color for everyday comfort and casual wear.",
+    features: [
+      "Lightweight design for all-day comfort",
+      "Classic lace-up closure for a secure fit",
+      "Stylish Rose Dust colorway",
+      "Durable synthetic upper construction",
+      "Versatile design for daily and casual wear",
+      "Trusted PUMA comfort and style"
+    ],
+    featured: true,
+  },
+  {
+    id: 28,
+    title: "HOMIFLY 3-Layer Wall-Mounted Storage Cabinet",
+    category: "Home Organization",
+    tag: "Storage Solution",
+    image: "/src/assets/images/products/28.png",
+    affiliateUrl: "https://amzn.to/43vTqrl",
+    description:
+      "Space-saving wall-mounted storage cabinet with a no-drill installation design, dustproof doors, and versatile 3-layer storage for kitchens, bathrooms, laundry rooms, and more.",
+    features: [
+      "No-drill self-adhesive wall mounting",
+      "3 spacious layers for organized storage",
+      "Waterproof and durable premium construction",
+      "Dustproof dual-door cabinet design",
+      "Suitable for kitchen, bathroom, laundry, and wardrobe use",
+      "Modern space-saving wall organizer"
+    ],
+    featured: true,
+  },
+  {
+    id: 29,
+    title: "Webelkart Premium Home Wooden Key Holder",
+    category: "Home Organization",
+    tag: "Wall Organizer",
+    image: "/src/assets/images/products/29.png",
+    affiliateUrl: "https://amzn.to/3QHcShS",
+    description:
+      "Decorative wooden key holder featuring a stylish 'Home' design and 7 hooks to keep keys, keychains, and small essentials organized while enhancing your wall décor.",
+    features: [
+      "Decorative 'Home' themed wall design",
+      "7 sturdy hooks for keys and accessories",
+      "Space-saving wall-mounted organizer",
+      "Durable wooden construction",
+      "Ideal for entryways, homes, and offices",
+      "Great gifting option for housewarmings"
     ],
     featured: true,
   },
