@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import ProductModal from "./components/ProductModal";
 import ScrollToTop from "./components/ScrollToTop";
 // Product Images
-import img_1 from "./assets/images/products/1.jpg";
+import img_1 from "./assets/images/products/1.webp";
 import img_2 from "./assets/images/products/2.jpg";
 import img_3 from "./assets/images/products/3.jpg";
 import img_4 from "./assets/images/products/4.jpg";
