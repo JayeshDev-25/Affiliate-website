@@ -8,14 +8,16 @@ import FeaturedSection from "./components/FeaturedSection";
 import Footer from "./components/Footer";
 import ProductModal from "./components/ProductModal";
 import ScrollToTop from "./components/ScrollToTop";
-
+// Product Images
+import img_1 from "./assets/images/products/1.jpg";
+//
 const PRODUCTS = [
   {
     id: 1,
     title: "OnePlus Nord Buds 3r",
     category: "Electronics",
     tag: "Best Value",
-    image: "/src/assets/images/products/1.jpg",
+    image: img_1,
     affiliateUrl: "https://amzn.to/4uBUDJm",
     description:
       "Exceptional sound quality for the price. 54hr battery life, deep bass, and IPX5 water resistance make these a top pick for students and daily commuters.",
