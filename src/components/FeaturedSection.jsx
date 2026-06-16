@@ -10,7 +10,12 @@ const FeaturedSection = ({ products, onProductClick }) => {
         </div>
         <div className="featured-grid">
           {products.map((product, i) => (
-            <FeaturedCard key={product.id} product={product} onClick={() => onProductClick(product)} index={i} />
+            <FeaturedCard
+              key={product.id}
+              product={product}
+              onClick={() => onProductClick(product)}
+              index={i}
+            />
           ))}
         </div>
       </div>
@@ -28,16 +33,31 @@ const FeaturedCard = ({ product, onClick, index }) => {
       )
     : null;
 
+  const handleClick = () => {
+    if (window.gtag) {
+      window.gtag('event', 'product_click', {
+        product_id: product.id,
+        product_name: product.title,
+        product_category: product.category,
+        product_price: product.price,
+        click_location: 'featured_section'
+      });
+    }
+    onClick();
+  };
+
   return (
     <button
       className="featured-card"
-      onClick={onClick}
+      onClick={handleClick}
       aria-label={`View featured product: ${product.title}`}
       style={{ animationDelay: `${index * 0.1}s` }}
     >
       <div className="fc-img-wrap">
         <img src={product.image} alt={product.title} loading="lazy" />
-        {discount >= 10 && <span className="fc-discount">Save {discount}%</span>}
+        {discount >= 10 && (
+          <span className="fc-discount">Save {discount}%</span>
+        )}
       </div>
       <div className="fc-body">
         <span className="fc-cat">{product.category}</span>
@@ -46,8 +66,18 @@ const FeaturedCard = ({ product, onClick, index }) => {
         <div className="fc-bottom">
           <span className="fc-view-btn">
             View Deal
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
-              <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
+            <svg
+              width="13"
+              height="13"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+              aria-hidden="true"
+            >
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
             </svg>
           </span>
         </div>
