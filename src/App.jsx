@@ -38,6 +38,13 @@ import img_26 from "./assets/images/products/26.webp";
 import img_27 from "./assets/images/products/27.webp";
 import img_28 from "./assets/images/products/28.webp";
 import img_29 from "./assets/images/products/29.webp";
+import img_30 from "./assets/images/products/30.webp";
+import img_31 from "./assets/images/products/31.webp";
+import img_32 from "./assets/images/products/32.webp";
+import img_33 from "./assets/images/products/33.webp";
+import img_34 from "./assets/images/products/34.webp";
+import img_35 from "./assets/images/products/35.webp";
+import img_36 from "./assets/images/products/36.webp";
 //
 const PRODUCTS = [
   {
@@ -545,6 +552,135 @@ const PRODUCTS = [
       "Great gifting option for housewarmings"
     ],
     featured: true,
+  },
+  {
+    id: 30,
+    title: "Natural Jute Planter with Wooden Stand",
+    category: "Home Organization",
+    tag: "Plant Decor",
+    image: img_30,
+    affiliateUrl: "https://amzn.to/4vi5RDm",
+    description:
+      "Handwoven natural jute planter with a sturdy wooden stand, designed to elevate indoor plants while adding warmth and style to your living space.",
+    features: [
+      "Handcrafted natural jute rope design",
+      "Raised wooden stand for elevated display",
+      "Lightweight and easy to reposition",
+      "Perfect for indoor plants and home decor",
+      "Suitable for living rooms, balconies, and offices",
+      "Modern boho-inspired aesthetic"
+    ],
+    featured: true,
+  },
+  {
+    id: 31,
+    title: "Engineered Wood Study & Office Table with Drawer & Cabinet",
+    category: "Home Organization",
+    tag: "Study Desk",
+    image: img_31,
+    affiliateUrl: "https://amzn.to/3QoSWQQ",
+    description:
+      "Compact engineered wood study desk featuring a spacious tabletop, drawer, shelf, and cabinet for an organized workspace. Ideal for students, professionals, and home offices.",
+    features: [
+      "Built-in drawer, shelf, and storage cabinet",
+      "Premium 15mm engineered wood construction",
+      "Compact space-saving design",
+      "Termite-resistant and durable finish",
+      "Easy DIY assembly with included fittings",
+      "Suitable for study, work, and home office use"
+    ],
+    featured: true,
+  },
+  {
+    id: 32,
+    title: "PVC Clear Makeup & Toiletry Travel Organizer Set of 3",
+    category: "Travel Accessories",
+    tag: "Travel Organizer",
+    image: img_32,
+    affiliateUrl: "https://amzn.to/4vOr5sb",
+    description:
+      "Transparent travel organizer set with three versatile storage bags designed for cosmetics, toiletries, skincare products, and travel essentials.",
+    features: [
+      "3-piece organizer set in different sizes",
+      "Clear PVC design for quick item visibility",
+      "Water-resistant and durable construction",
+      "Comfortable carry handles for easy transport",
+      "Ideal for travel, gym, vacations, and daily use",
+      "Stores cosmetics, toiletries, medicines, and accessories"
+    ],
+    featured: true,
+  },
+  {
+    id: 33,
+    title: "Ozoy Mini Folding Travel Umbrella with Case",
+    category: "Travel Accessories",
+    tag: "Travel Essential",
+    image: img_33,
+    affiliateUrl: "https://amzn.to/4viDPrm",
+    description: "Ultra-compact travel umbrella with waterproof case, UPF 50+ sun protection, and lightweight design for everyday carry.",
+    features: [
+      "Ultra-compact pocket-sized design",
+      "Includes protective carrying case",
+      "UPF 50+ UV protection",
+      "Water-repellent quick-dry canopy",
+      "Durable fiberglass frame construction",
+      "Ideal for travel, commuting, and daily use"
+    ],
+    featured: false
+  },
+  {
+    id: 34,
+    title: 'DALUCI Travel Shoe Bags Pack of 6',
+    category: 'Travel Accessories',
+    tag: 'Travel Organizer',
+    image: img_34,
+    affiliateUrl: 'https://amzn.to/43EA3fR',
+    description: 'Keep shoes clean, protected, and neatly organized with this reusable 6-pack travel shoe bag set. Perfect for luggage, gym bags, wardrobes, and everyday storage.',
+    features: [
+      'Pack of 6 reusable shoe storage bags',
+      'Breathable nonwoven fabric helps reduce odor buildup',
+      'Transparent window for quick shoe identification',
+      'Protects footwear from dust, dirt, and scuffs',
+      'Multipurpose organizer for travel essentials and accessories',
+      'Lightweight design ideal for luggage, gym, and home storage'
+    ],
+    featured: true,
+  },
+  {
+    id: 35,
+    title: 'Metaind Wired USB Headset with Noise-Canceling Mic',
+    category: 'Electronics',
+    tag: 'Office Accessories',
+    image: img_35,
+    affiliateUrl: 'https://amzn.to/4vVb1oy',
+    description: 'Professional USB headset with noise-canceling microphone, HD audio, and memory foam comfort. Designed for calls, meetings, online classes, and remote work.',
+    features: [
+      'Noise-canceling microphone for crystal-clear communication',
+      'USB plug-and-play setup with no software required',
+      'HD audio quality for meetings, calls, and media',
+      'Soft memory foam ear cushions for all-day comfort',
+      'Compatible with Windows, Mac, Chromebook, Zoom & Teams',
+      'Durable lightweight design built for daily use'
+    ],
+    featured: true,
+  },
+  {
+    id: 36,
+    title: "BOXJOY 4 Pcs Wardrobe Cloth Organizer Storage Boxes",
+    category: "Home Organization",
+    tag: "Storage Solution",
+    image: img_36,
+    affiliateUrl: "https://amzn.to/4esC4AC",
+    description: "Keep your wardrobe neat and clutter-free with these foldable storage organizer boxes that maximize closet space while keeping clothes, towels, and accessories perfectly organized.",
+    features: [
+      "Pack of 4 storage organizers for wardrobe & shelves",
+      "Durable steel frame with premium polyester linen fabric",
+      "Stackable design saves valuable closet space",
+      "Foldable and lightweight for easy storage when not in use",
+      "Built-in handles for convenient carrying and movement",
+      "Label card holders for quick and easy organization"
+    ],
+    featured: false
   },
 ];
 
