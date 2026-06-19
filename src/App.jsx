@@ -49,12 +49,13 @@ import img_37 from "./assets/images/products/37.webp";
 import img_38 from "./assets/images/products/38.webp";
 import img_39 from "./assets/images/products/39.webp";
 import img_40 from "./assets/images/products/40.webp";
+import img_41 from "./assets/images/products/41.webp";
 //
 const PRODUCTS = [
   {
     id: 1,
     title: "OnePlus Nord Buds 3r",
-    category: "Electronics",
+    category: "Tech",
     tag: "Best Value",
     image: img_1,
     affiliateUrl: "https://amzn.to/4uBUDJm",
@@ -78,7 +79,7 @@ const PRODUCTS = [
   {
     id: 3,
     title: "Zebronics NS1000 Laptop Stand",
-    category: "Tech Accessories",
+    category: "Tech",
     tag: "Top Pick",
     image: img_3,
     affiliateUrl: "https://amzn.to/49PjLEr",
@@ -114,7 +115,7 @@ const PRODUCTS = [
   {
     id: 6,
     title: "Adhesive Soap Holder for Bathroom",
-    category: "Home Decor",
+    category: "Home Organization",
     tag: null,
     image: img_6,
     affiliateUrl: "https://amzn.to/4wPhh2u",
@@ -143,7 +144,7 @@ const PRODUCTS = [
   {
     id: 8,
     title: "Zebronics 200HB USB 3.0 4 Port Hub",
-    category: "Computer Accessories",
+    category: "Tech",
     tag: null,
     image: img_8,
     affiliateUrl: "https://amzn.to/4dTEfNa",
@@ -178,7 +179,7 @@ const PRODUCTS = [
   {
     id: 10,
     title: "Arctic Fox Pureview Transparent Wireless Mouse",
-    category: "Computer Accessories",
+    category: "Tech",
     tag: null,
     image: img_10,
     affiliateUrl: "https://amzn.to/3SdtZbm",
@@ -196,7 +197,7 @@ const PRODUCTS = [
   {
     id: 11,
     title: "Ambrane Unbreakable 3A Fast Charging Type-C Cable (1.5m)",
-    category: "Computer Accessories",
+    category: "Tech",
     tag: null,
     image: img_11,
     affiliateUrl: "https://amzn.to/43xoRRW",
@@ -250,7 +251,7 @@ const PRODUCTS = [
   {
     id: 14,
     title: "Portronics Clamp M4 Car Phone Holder Stand",
-    category: "Tech Accessories",
+    category: "Tech",
     tag: null,
     image: img_14,
     affiliateUrl: "https://amzn.to/4ulFGdH",
@@ -288,7 +289,7 @@ const PRODUCTS = [
   {
     id: 16,
     title: "Dyazo Water Resistant Laptop Sleeve with Handle",
-    category: "Tech Accessories",
+    category: "Tech",
     tag: null,
     image: img_16,
     affiliateUrl: "https://amzn.to/4vEmJUF",
@@ -307,7 +308,7 @@ const PRODUCTS = [
   {
     id: 17,
     title: "ZEBRONICS Freego Wireless Mouse",
-    category: "Computer Accessories",
+    category: "Tech",
     tag: null,
     image: img_17,
     affiliateUrl: "https://amzn.to/4ocvX87",
@@ -346,7 +347,7 @@ const PRODUCTS = [
   {
     id: 19,
     title: "Zouk Women's Office Laptop Bag",
-    category: "Tech Accessories",
+    category: "Fashion & Lifestyle",
     tag: "Best Seller",
     image: img_19,
     affiliateUrl: "https://amzn.to/3S2huQ0",
@@ -366,7 +367,7 @@ const PRODUCTS = [
   {
     id: 20,
     title: "Travel Organizer Pouch",
-    category: "Tech Accessories",
+    category: "Travel & Bags",
     tag: "Travel Essential",
     image: img_20,
     affiliateUrl: "https://amzn.to/4xkmiAq",
@@ -405,7 +406,7 @@ const PRODUCTS = [
   {
     id: 22,
     title: "Socket Power Strip",
-    category: "Electronics",
+    category: "Tech",
     tag: "Electrical Safety",
     image: img_22,
     affiliateUrl: "https://amzn.to/4vH2WUp",
@@ -446,7 +447,7 @@ const PRODUCTS = [
   {
     id: 24,
     title: "Handmade Macrame Sling Bag",
-    category: "Women's Fashion",
+    category: "Fashion & Lifestyle",
     tag: "Boho Chic",
     image: img_24,
     affiliateUrl: "https://amzn.to/4e5sBjL",
@@ -503,7 +504,7 @@ const PRODUCTS = [
   {
     id: 27,
     title: "PUMA Women Smasher Sneaker",
-    category: "Women's Fashion",
+    category: "Fashion & Lifestyle",
     tag: "Women's Footwear",
     image: img_27,
     affiliateUrl: "https://amzn.to/43EbpvI",
@@ -560,7 +561,7 @@ const PRODUCTS = [
   {
     id: 30,
     title: "Natural Jute Planter with Wooden Stand",
-    category: "Home Organization",
+    category: "Home Decor",
     tag: "Plant Decor",
     image: img_30,
     affiliateUrl: "https://amzn.to/4vi5RDm",
@@ -598,7 +599,7 @@ const PRODUCTS = [
   {
     id: 32,
     title: "PVC Clear Makeup & Toiletry Travel Organizer Set of 3",
-    category: "Travel Accessories",
+    category: "Travel & Bags",
     tag: "Travel Organizer",
     image: img_32,
     affiliateUrl: "https://amzn.to/4vOr5sb",
@@ -617,7 +618,7 @@ const PRODUCTS = [
   {
     id: 33,
     title: "Ozoy Mini Folding Travel Umbrella with Case",
-    category: "Travel Accessories",
+    category: "Travel & Bags",
     tag: "Travel Essential",
     image: img_33,
     affiliateUrl: "https://amzn.to/4viDPrm",
@@ -635,7 +636,7 @@ const PRODUCTS = [
   {
     id: 34,
     title: 'DALUCI Travel Shoe Bags Pack of 6',
-    category: 'Travel Accessories',
+    category: 'Travel & Bags',
     tag: 'Travel Organizer',
     image: img_34,
     affiliateUrl: 'https://amzn.to/43EA3fR',
@@ -653,7 +654,7 @@ const PRODUCTS = [
   {
     id: 35,
     title: 'Metaind Wired USB Headset with Noise-Canceling Mic',
-    category: 'Electronics',
+    category: 'Tech',
     tag: 'Office Accessories',
     image: img_35,
     affiliateUrl: 'https://amzn.to/4vVb1oy',
@@ -755,6 +756,24 @@ const PRODUCTS = [
       "Maximizes kitchen and countertop space",
       "Modern matte black design suits any decor",
       "Multi-purpose use for kitchen, bathroom, garage or office"
+    ],
+    featured: false
+  },
+  {
+    id: 41,
+    title: "Klenzmo Washing Machine Cleaner & Descaler Powder",
+    category: "Home Care",
+    tag: "Laundry Essential",
+    image: img_41,
+    affiliateUrl: "https://link.amazon/B0cZP0C8G",
+    description: "Deep cleaning descaler powder that removes limescale, detergent residue, grime, and odors from top-load and front-load washing machines.",
+    features: [
+      "Removes stubborn limescale buildup",
+      "Eliminates odor-causing residue & grime",
+      "Microclean technology for deep cleaning",
+      "Safe, biodegradable formula",
+      "Compatible with all major washing machine brands",
+      "Easy monthly maintenance solution"
     ],
     featured: false
   },
