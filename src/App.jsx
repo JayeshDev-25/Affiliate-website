@@ -45,6 +45,10 @@ import img_33 from "./assets/images/products/33.webp";
 import img_34 from "./assets/images/products/34.webp";
 import img_35 from "./assets/images/products/35.webp";
 import img_36 from "./assets/images/products/36.webp";
+import img_37 from "./assets/images/products/37.webp";
+import img_38 from "./assets/images/products/38.webp";
+import img_39 from "./assets/images/products/39.webp";
+import img_40 from "./assets/images/products/40.webp";
 //
 const PRODUCTS = [
   {
@@ -518,7 +522,7 @@ const PRODUCTS = [
   {
     id: 28,
     title: "HOMIFLY 3-Layer Wall-Mounted Storage Cabinet",
-    category: "Home Organization",
+    category: "Home & Kitchen",
     tag: "Storage Solution",
     image: img_28,
     affiliateUrl: "https://amzn.to/43vTqrl",
@@ -679,6 +683,78 @@ const PRODUCTS = [
       "Foldable and lightweight for easy storage when not in use",
       "Built-in handles for convenient carrying and movement",
       "Label card holders for quick and easy organization"
+    ],
+    featured: false
+  },
+  {
+    id: 37,
+    title: "XML 30 Eggs Tray Storage Box Organizer",
+    category: "Home & Kitchen",
+    tag: "Fridge Storage",
+    image: img_37,
+    affiliateUrl: "https://link.amazon/B02DedNQv",
+    description: "Organize up to 30 eggs neatly with this space-saving refrigerator egg dispenser featuring an automatic rolling design and protective lid.",
+    features: [
+      "Holds up to 30 eggs in a compact design",
+      "Automatic gravity-fed rolling dispenser",
+      "Dust-proof lid keeps eggs clean and protected",
+      "Stackable design maximizes refrigerator space",
+      "Suitable for fridges, pantries, shelves, and countertops",
+      "Easy access and convenient egg storage"
+    ],
+    featured: false
+  },
+  {
+    id: 38,
+    title: "Seznik Mini Sealing Machine for Food Packets",
+    category: "Kitchen Gadgets",
+    tag: "Food Storage",
+    image: img_38,
+    affiliateUrl: "https://link.amazon/B0e57TrJ4",
+    description: "Keep snacks, chips, and food packets fresh for longer with this portable 2-in-1 heat sealer and cutter. USB rechargeable, lightweight, and perfect for airtight food storage at home or on the go.",
+    features: [
+      "2-in-1 heat sealer with built-in cutter",
+      "Creates airtight seals in just 5 seconds",
+      "USB Type-C rechargeable battery",
+      "Magnetic back for easy fridge storage",
+      "Works with most plastic food bags",
+      "Compact, lightweight, and travel-friendly"
+    ],
+    featured: false
+  },
+  {
+    id: 39,
+    title: "OrganizeMee Magnetic Fridge Shelf Organizer",
+    category: "Home & Kitchen",
+    tag: "Kitchen Storage",
+    image: img_39,
+    affiliateUrl: "https://link.amazon/B0i07Wav7",
+    description: "Maximize unused fridge space with this strong magnetic shelf organizer. Perfect for storing spices, oils, jars, and kitchen essentials while keeping countertops clutter-free.",
+    features: [
+      "Strong magnetic backing for secure attachment",
+      "Creates extra storage without drilling or tools",
+      "Perfect for spices, oils, jars, and seasonings",
+      "Fits refrigerators, washing machines, and microwaves",
+      "Durable premium metal construction",
+      "Ideal for small kitchens and apartments"
+    ],
+    featured: false
+  },
+  {
+    id: 40,
+    title: "Self Adhesive Kitchen Hook Rack with 11 Hooks",
+    category: "Home & Kitchen",
+    tag: "Kitchen Organizer",
+    image: img_40,
+    affiliateUrl: "https://link.amazon/B05HJw24b",
+    description: "Space-saving wall-mounted utensil rack with 11 hooks, durable carbon steel construction, and modern matte black finish for organized kitchens.",
+    features: [
+      "11 sturdy hooks for utensils, pans, mugs & tools",
+      "Heavy-duty carbon steel with rust-resistant finish",
+      "Self-adhesive installation with no drilling required",
+      "Maximizes kitchen and countertop space",
+      "Modern matte black design suits any decor",
+      "Multi-purpose use for kitchen, bathroom, garage or office"
     ],
     featured: false
   },
