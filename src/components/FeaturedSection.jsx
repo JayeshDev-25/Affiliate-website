@@ -24,14 +24,6 @@ const FeaturedSection = ({ products, onProductClick }) => {
 };
 
 const FeaturedCard = ({ product, onClick, index }) => {
-  const discount = product.originalPrice
-    ? Math.round(
-        ((parseInt(product.originalPrice.replace(/[^0-9]/g, "")) -
-          parseInt(product.price.replace(/[^0-9]/g, ""))) /
-          parseInt(product.originalPrice.replace(/[^0-9]/g, ""))) *
-          100
-      )
-    : null;
 
   const handleClick = () => {
     if (window.gtag) {
@@ -55,9 +47,6 @@ const FeaturedCard = ({ product, onClick, index }) => {
     >
       <div className="fc-img-wrap">
         <img src={product.image} alt={product.title} loading="lazy" />
-        {discount >= 10 && (
-          <span className="fc-discount">Save {discount}%</span>
-        )}
       </div>
       <div className="fc-body">
         <span className="fc-cat">{product.category}</span>

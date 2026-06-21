@@ -51,6 +51,7 @@ import img_39 from "./assets/images/products/39.webp";
 import img_40 from "./assets/images/products/40.webp";
 import img_41 from "./assets/images/products/41.webp";
 import img_42 from "./assets/images/products/42.webp";
+import img_43 from "./assets/images/products/43.webp";
 //
 const PRODUCTS = [
   {
@@ -348,7 +349,7 @@ const PRODUCTS = [
   {
     id: 19,
     title: "Zouk Women's Office Laptop Bag",
-    category: "Fashion & Lifestyle",
+    category: "Women's Fashion",
     tag: "Best Seller",
     image: img_19,
     affiliateUrl: "https://amzn.to/3S2huQ0",
@@ -448,7 +449,7 @@ const PRODUCTS = [
   {
     id: 24,
     title: "Handmade Macrame Sling Bag",
-    category: "Fashion & Lifestyle",
+    category: "Women's Fashion",
     tag: "Boho Chic",
     image: img_24,
     affiliateUrl: "https://amzn.to/4e5sBjL",
@@ -505,7 +506,7 @@ const PRODUCTS = [
   {
     id: 27,
     title: "PUMA Women Smasher Sneaker",
-    category: "Fashion & Lifestyle",
+    category: "Women's Fashion",
     tag: "Women's Footwear",
     image: img_27,
     affiliateUrl: "https://amzn.to/43EbpvI",
@@ -793,6 +794,24 @@ const PRODUCTS = [
       "Lightweight for daily wear",
       "Versatile sporty style",
       "Made in India"
+    ],
+    featured: false
+  },
+  {
+    id: 43,
+    title: "TIMEWEAR Analog Slim Two Hands Leather Strap Watch for Men",
+    category: "Men's Fashion",
+    tag: "Best Amazon Find",
+    image: img_43,
+    affiliateUrl: "https://link.amazon/B09u78Riu",
+    description: "A sleek and elegant analog watch featuring a slim dial and premium leather strap. Perfect for daily wear, office outfits, casual looks, and gifting.",
+    features: [
+      "Ultra-slim minimalist dial design",
+      "Comfortable leather strap",
+      "Lightweight for all-day wear",
+      "Versatile style for casual & formal outfits",
+      "Classic timeless look",
+      "Great value budget watch"
     ],
     featured: false
   },

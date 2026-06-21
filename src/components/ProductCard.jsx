@@ -8,22 +8,12 @@ const tagColors = {
 };
 
 const ProductCard = ({ product, onClick }) => {
-  const discount = product.originalPrice
-    ? Math.round(
-        ((parseInt(product.originalPrice.replace(/[^0-9]/g, "")) -
-          parseInt(product.price.replace(/[^0-9]/g, ""))) /
-          parseInt(product.originalPrice.replace(/[^0-9]/g, ""))) *
-          100
-      )
-    : null;
-
   const handleClick = () => {
     if (window.gtag) {
       window.gtag('event', 'product_click', {
         product_id: product.id,
         product_name: product.title,
         product_category: product.category,
-        product_price: product.price,
         click_location: 'product_grid'
       });
     }
@@ -45,9 +35,6 @@ const ProductCard = ({ product, onClick }) => {
           <span className={`pc-tag badge ${tagColors[product.tag] || "badge-blue"}`}>
             {product.tag}
           </span>
-        )}
-        {discount >= 10 && (
-          <span className="pc-discount">-{discount}%</span>
         )}
       </div>
 

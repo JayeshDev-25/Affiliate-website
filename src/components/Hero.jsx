@@ -56,12 +56,6 @@ const Hero = ({ featuredProduct, onProductClick }) => {
               <div className="hero-product-info">
                 <span className="hero-product-cat">{featuredProduct.category}</span>
                 <h3 className="hero-product-title">{featuredProduct.title}</h3>
-                <div className="hero-product-pricing">
-                  <span className="hero-price">{featuredProduct.price}</span>
-                  {featuredProduct.originalPrice && (
-                    <span className="hero-original">{featuredProduct.originalPrice}</span>
-                  )}
-                </div>
                 <div className="hero-product-cta btn btn-primary btn-sm" aria-hidden="true">
                   View on Amazon
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
