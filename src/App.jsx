@@ -50,6 +50,7 @@ import img_38 from "./assets/images/products/38.webp";
 import img_39 from "./assets/images/products/39.webp";
 import img_40 from "./assets/images/products/40.webp";
 import img_41 from "./assets/images/products/41.webp";
+import img_42 from "./assets/images/products/42.webp";
 //
 const PRODUCTS = [
   {
@@ -774,6 +775,24 @@ const PRODUCTS = [
       "Safe, biodegradable formula",
       "Compatible with all major washing machine brands",
       "Easy monthly maintenance solution"
+    ],
+    featured: false
+  },
+  {
+    id: 42,
+    title: "SPARX Sports Shoe SM-171 for Men",
+    category: "Footwear",
+    tag: "Men's Shoes",
+    image: img_42,
+    affiliateUrl: "https://link.amazon/B0bHFFPbH",
+    description: "Lightweight sports shoes designed for everyday comfort, walking, travel, and casual wear with a stylish all-white look.",
+    features: [
+      "Breathable mesh upper",
+      "Comfortable lace-up design",
+      "Durable rubber outsole",
+      "Lightweight for daily wear",
+      "Versatile sporty style",
+      "Made in India"
     ],
     featured: false
   },
