@@ -52,6 +52,8 @@ import img_40 from "./assets/images/products/40.webp";
 import img_41 from "./assets/images/products/41.webp";
 import img_42 from "./assets/images/products/42.webp";
 import img_43 from "./assets/images/products/43.webp";
+import img_44 from "./assets/images/products/44.webp";
+import img_45 from "./assets/images/products/45.webp";
 //
 const PRODUCTS = [
   {
@@ -88,7 +90,7 @@ const PRODUCTS = [
     description:
       "An incredibly affordable ergonomic laptop stand. Reduces neck strain during long work sessions. Foldable and portable — fits any bag.",
     features: ["Foldable & portable", "6 height levels", "Anti-slip pads", "Up to 15.6\" laptops"],
-    featured: true,
+    featured: false,
   },
   {
     id: 4,
@@ -814,6 +816,42 @@ const PRODUCTS = [
       "Great value budget watch"
     ],
     featured: false
+  },
+  {
+    id: 44,
+    title: 'LEDO 12 Slot Watch Box Organizer Case',
+    category: 'Home Organization',
+    tag: 'Watch Storage',
+    image: img_44,
+    affiliateUrl: 'https://link.amazon/B020E2N4i',
+    description: 'Premium 12-slot watch organizer with PU leather exterior and soft velvet interior for safe, stylish storage.',
+    features: [
+      '12 spacious watch compartments',
+      'Soft velvet interior protection',
+      'Premium PU leather finish',
+      'Secure anti-rust lock design',
+      'Suitable for watches & accessories',
+      'Great gift for watch collectors'
+    ],
+    featured: true
+  },
+  {
+    id: 45,
+    title: "URBAN FOREST Seattle Genuine Leather RFID Wallet",
+    category: "Accessories",
+    tag: "Men's Wallet",
+    image: img_45,
+    affiliateUrl: "https://link.amazon/B0fPZRlcF",
+    description: "Premium genuine leather wallet featuring RFID protection, multiple storage compartments, and a sleek slim design for everyday use.",
+    features: [
+      "RFID blocking security technology",
+      "Premium genuine leather construction",
+      "6 dedicated card slots",
+      "Coin pocket and zippered compartment",
+      "Dual currency compartments",
+      "Slim and lightweight everyday carry design"
+    ],
+    featured: true
   },
 ];
 
