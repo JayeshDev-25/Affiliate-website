@@ -53,6 +53,8 @@ import img_42 from "./assets/images/products/42.webp";
 import img_43 from "./assets/images/products/43.webp";
 import img_44 from "./assets/images/products/44.webp";
 import img_45 from "./assets/images/products/45.webp";
+import img_46 from "./assets/images/products/46.webp";
+import img_47 from "./assets/images/products/47.webp";
 //
 const PRODUCTS = [
   {
@@ -507,7 +509,7 @@ const PRODUCTS = [
   {
     id: 27,
     title: "PUMA Women Smasher Sneaker",
-    category: "Women's Fashion",
+    category: "Footwear",
     tag: "Women's Footwear",
     image: img_27,
     affiliateUrl: "https://amzn.to/43EbpvI",
@@ -851,6 +853,42 @@ const PRODUCTS = [
       "Slim and lightweight everyday carry design"
     ],
     featured: true
+  },
+  {
+    id: 46,
+    title: "London Hills Men's Vertical Striped Polo T-Shirt",
+    category: "Men's Fashion",
+    tag: "Men's Clothing",
+    image: img_46,
+    affiliateUrl: "https://link.amazon/B06CDUeQk",
+    description: "A stylish striped polo T-shirt featuring a modern zip collar, breathable fabric, and relaxed fit for everyday comfort and versatile styling.",
+    features: [
+      "Modern zip collar design",
+      "Lightweight breathable fabric",
+      "Comfortable loose-fit silhouette",
+      "Suitable for casual and smart-casual wear",
+      "Pairs easily with jeans, shorts, and chinos",
+      "Ideal for summer and daily use"
+    ],
+    featured: false
+  },
+  {
+    id: 47,
+    title: "ASIAN Stella-02 Women's Sneakers",
+    category: "Footwear",
+    tag: "Women's Sneakers",
+    image: img_47,
+    affiliateUrl: "https://link.amazon/B09FMzw3p",
+    description: "Stylish and lightweight women's sneakers designed for everyday comfort, casual outings, travel, and daily wear.",
+    features: [
+      "Lightweight everyday design",
+      "Soft cushioned comfort",
+      "Breathable upper construction",
+      "Stylish dual-tone finish",
+      "Strong grip outsole",
+      "Perfect for casual wear"
+    ],
+    featured: false
   },
 ];
 
