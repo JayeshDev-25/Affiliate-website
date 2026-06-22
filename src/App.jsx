@@ -3,8 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ProductGrid from "./components/ProductGrid";
-import CategoryFilter from "./components/CategoryFilter";
-import FeaturedSection from "./components/FeaturedSection";
+import CategorySidebar from "./components/CategorySidebar";
 import Footer from "./components/Footer";
 import ProductModal from "./components/ProductModal";
 import ScrollToTop from "./components/ScrollToTop";
@@ -405,7 +404,7 @@ const PRODUCTS = [
       "Quick tool-free assembly in minutes",
       "Modern minimalist style complements any home décor"
     ],
-    featured: true,
+    featured: false,
   },
   {
     id: 22,
@@ -425,7 +424,7 @@ const PRODUCTS = [
       "1.8-meter long cable",
       "Ideal for laptops, chargers, TVs, gaming setups and home offices"
     ],
-    featured: true,
+    featured: false,
   },
   {
     id: 23,
@@ -484,7 +483,7 @@ const PRODUCTS = [
       "Ideal for storing plates, bowls, jars, spices and utensils",
       "Easy assembly with durable everyday support"
     ],
-    featured: true,
+    featured: false,
   },
   {
     id: 26,
@@ -522,7 +521,7 @@ const PRODUCTS = [
       "Versatile design for daily and casual wear",
       "Trusted PUMA comfort and style"
     ],
-    featured: true,
+    featured: false,
   },
   {
     id: 28,
@@ -541,7 +540,7 @@ const PRODUCTS = [
       "Suitable for kitchen, bathroom, laundry, and wardrobe use",
       "Modern space-saving wall organizer"
     ],
-    featured: true,
+    featured: false,
   },
   {
     id: 29,
@@ -560,7 +559,7 @@ const PRODUCTS = [
       "Ideal for entryways, homes, and offices",
       "Great gifting option for housewarmings"
     ],
-    featured: true,
+    featured: false,
   },
   {
     id: 30,
@@ -598,7 +597,7 @@ const PRODUCTS = [
       "Easy DIY assembly with included fittings",
       "Suitable for study, work, and home office use"
     ],
-    featured: true,
+    featured: false,
   },
   {
     id: 32,
@@ -797,7 +796,7 @@ const PRODUCTS = [
       "Versatile sporty style",
       "Made in India"
     ],
-    featured: false
+    featured: true
   },
   {
     id: 43,
@@ -815,7 +814,7 @@ const PRODUCTS = [
       "Classic timeless look",
       "Great value budget watch"
     ],
-    featured: false
+    featured: true
   },
   {
     id: 44,
@@ -833,7 +832,7 @@ const PRODUCTS = [
       'Suitable for watches & accessories',
       'Great gift for watch collectors'
     ],
-    featured: true
+    featured: false
   },
   {
     id: 45,
@@ -900,31 +899,37 @@ const App = () => {
         onSearchChange={setSearchQuery}
       />
 
-      <Hero featuredProduct={featuredProducts[0]} onProductClick={setSelectedProduct} />
-
-      <FeaturedSection products={featuredProducts} onProductClick={setSelectedProduct} />
+      <Hero featuredProducts={featuredProducts} onProductClick={setSelectedProduct} />
 
       <section className="section" id="products">
         <div className="container">
           <div className="section-header">
             <span className="section-eyebrow">All Products</span>
             <h2 className="section-title">
-              {searchQuery.trim()
-                ? `Results for "${searchQuery}"`
-                : "Browse Products by Category"}
+            {searchQuery.trim()
+              ? `Results for "${searchQuery}"`
+              : "Browse Products by Category"}
             </h2>
             <p className="section-subtitle">
-              {searchQuery.trim()
+             {searchQuery.trim()
                 ? `${filteredProducts.length} product${filteredProducts.length !== 1 ? "s" : ""} found`
                 : "Explore products across electronics, beauty, home, travel, and more."}
             </p>
           </div>
-          <CategoryFilter
-            categories={CATEGORIES}
-            activeCategory={activeCategory}
-            onSelect={setActiveCategory}
-          />
-          <ProductGrid products={filteredProducts} onProductClick={setSelectedProduct} />
+
+          <div className="products-layout">
+            <CategorySidebar
+              categories={CATEGORIES}
+              activeCategory={activeCategory}
+              onSelect={setActiveCategory}
+            />
+            <div className="products-main">
+              <ProductGrid
+                products={filteredProducts}
+                onProductClick={setSelectedProduct}
+              />
+            </div>
+          </div>
         </div>
       </section>
 

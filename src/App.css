@@ -243,3 +243,27 @@ button {
 @media (max-width: 480px) {
   .section { padding: 48px 0; }
 }
+
+/* Products layout — sidebar + grid */
+.products-layout {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.products-main {
+  flex: 1;
+  min-width: 0; /* prevents grid overflow */
+}
+
+@media (max-width: 900px) {
+  .products-layout {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+/* Add this */
+#products {
+  padding-top: 48px;
+}
