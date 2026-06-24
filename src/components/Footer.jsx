@@ -29,9 +29,7 @@ const Footer = () => {
             <h3 className="footer-group-label">Navigate</h3>
             <ul role="list">
               <li><a href="#" className="footer-link">Home</a></li>
-              <li><a href="#featured" className="footer-link">Featured</a></li>
               <li><a href="#products" className="footer-link">All Products</a></li>
-              <li><a href="#about" className="footer-link">About</a></li>
             </ul>
           </div>
 
