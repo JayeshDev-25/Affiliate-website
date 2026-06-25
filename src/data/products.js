@@ -46,6 +46,8 @@ import img_44 from "../assets/images/products/44.webp";
 import img_45 from "../assets/images/products/45.webp";
 import img_46 from "../assets/images/products/46.webp";
 import img_47 from "../assets/images/products/47.webp";
+import img_48 from "../assets/images/products/48.webp";
+import img_49 from "../assets/images/products/49.webp";
 
 // Product Data
 export const PRODUCTS = [
@@ -882,4 +884,39 @@ export const PRODUCTS = [
     ],
     featured: true
   },
+    {
+    id: 48,
+    title: "Niwlix Travel Cosmetic Makeup Pouch Bag",
+    category: "Travel & Bags",
+    tag: "Travel Organizer",
+    image: img_48,
+    affiliateUrl: "https://amzn.to/4ai6Laq",
+    description: "Stylish and spacious travel makeup pouch made from premium water-resistant PU leather. Features smart divider compartments, a wide-open design, and a convenient handle for effortless organization at home or on the go.",
+    features: [
+      "Water-resistant PU leather exterior",
+      "Wide-open design for easy access",
+      "Multiple divider compartments for organization",
+      "Lightweight and travel-friendly with handle",
+      "Stores makeup, toiletries, jewelry and accessories",
+      "Durable zipper closure for secure storage"
+    ],
+    featured: false
+  },
+  {
+    id: 49,
+    title: "LA GLARE Soft Fabric Sling Bag with Broad Strap & Coin Pouch",
+    category: "Travel & Bags",
+    tag: "Women's Accessories",
+    image: img_49,
+    affiliateUrl: "https://amzn.to/4v5j4P6",
+    description: "A durable, multi-occasional faux leather sling bag tailored for modern women, featuring a striking geometric broad strap and a detachable matching coin pouch.",
+    features: [
+      "Premium quality faux leather built to withstand everyday all-weather use.",
+      "Spacious compartments and specialized pockets keep essentials perfectly organized.",
+      "Includes an eye-catching, comfortable broad strap and a modular coin pouch.",
+      "Versatile design effortlessly adapts to both workwear and casual outings.",
+      "Proudly made in India with meticulous attention to stitching and material design."
+    ],
+    featured: true
+  }
 ];
