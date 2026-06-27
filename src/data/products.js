@@ -48,6 +48,8 @@ import img_46 from "../assets/images/products/46.webp";
 import img_47 from "../assets/images/products/47.webp";
 import img_48 from "../assets/images/products/48.webp";
 import img_49 from "../assets/images/products/49.webp";
+import img_50 from "../assets/images/products/50.webp";
+import img_51 from "../assets/images/products/51.webp";
 
 // Product Data
 export const PRODUCTS = [
@@ -796,7 +798,7 @@ export const PRODUCTS = [
   },
   {
     id: 43,
-    title: "TIMEWEAR Analog Slim Two Hands Leather Strap Watch for Men",
+    title: "TIMEWEAR Analog Watch for Men",
     category: "Men's Fashion",
     tag: "Best Amazon Find",
     image: img_43,
@@ -904,7 +906,7 @@ export const PRODUCTS = [
   },
   {
     id: 49,
-    title: "LA GLARE Soft Fabric Sling Bag with Broad Strap & Coin Pouch",
+    title: "LA GLARE Soft Fabric Sling Bag",
     category: "Travel & Bags",
     tag: "Women's Accessories",
     image: img_49,
@@ -918,5 +920,41 @@ export const PRODUCTS = [
       "Proudly made in India with meticulous attention to stitching and material design."
     ],
     featured: true
-  }
+  },
+  {
+    id: 50,
+    title: "Cushioned Flip Flops for Men | Padded Fabric Strap Thong Slippers | Lightweight Anti-Slip EVA Sole",
+    category: "Footwear",
+    tag: "Best Seller",
+    image: img_50,
+    affiliateUrl: "https://amzn.to/4gIET3c",
+    description: "Experience all-day comfort with these lightweight men's flip flops.",
+    features: [
+      "Soft EVA cushioned sole for superior comfort",
+      "Premium padded fabric straps reduce irritation",
+      "Lightweight design for effortless everyday wear",
+      "Textured anti-slip outsole for better grip",
+      "Contoured footbed helps reduce foot fatigue",
+      "Great value at just ₹599"
+    ],
+    featured: false
+  },
+  {
+    id: 51,
+    title: "Styledose Rose Gold Diamond Studded Women's Watch",
+    category: "Women's Fashion",
+    tag: "Women's Watch",
+    image: img_51,
+    affiliateUrl: "https://amzn.to/4ambTud",
+    description: "A stylish rose gold analogue watch featuring a slim bracelet design and diamond-studded dial. Perfect for everyday elegance and gifting.",
+    features: [
+      "Diamond studded elegant dial",
+      "Premium rose gold bracelet strap",
+      "Slim & lightweight analogue design",
+      "Japanese quartz movement",
+      "Perfect gift for birthdays & anniversaries",
+      "Available for under ₹399"
+    ],
+    featured: false
+  },
 ];
