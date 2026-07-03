@@ -52,6 +52,8 @@ import img_50 from "../assets/images/products/50.webp";
 import img_51 from "../assets/images/products/51.webp";
 import img_52 from "../assets/images/products/52.webp";
 import img_53 from "../assets/images/products/53.webp";
+import img_54 from "../assets/images/products/54.webp";
+import img_55 from "../assets/images/products/55.webp";
 
 export const PRODUCTS = [
 
@@ -176,6 +178,24 @@ export const PRODUCTS = [
     affiliateUrl: "https://amzn.to/4vEmJUF",
     description: "Water-resistant laptop sleeve with soft velvet lining, multiple accessory pockets, and a convenient top handle for daily protection.",
     features: ["Fits 15 to 15.6 inch laptops", "Soft velvet lining", "Two front zip pockets", "Convenient top handle", "Water-resistant Oxford fabric"],
+    featured: false,
+  },
+  {
+    id: 55,
+    title: "Cerlink Earphone Case Headphone Pouch Cover",
+    group: "Tech",
+    category: "Accessories",
+    tag: null,
+    image: img_55,
+    affiliateUrl: "https://amzn.to/4gjsF0N",
+    description: "Compact hard-shell earphone case with soft lining to protect earphones, cables, pen drives, SD cards, and other small accessories.",
+    features: [
+      "Hard-shell protection",
+      "Compact & portable",
+      "Secure zipper closure",
+      "Stores cables & accessories",
+      "Travel-friendly design"
+    ],
     featured: false,
   },
 
@@ -594,6 +614,24 @@ export const PRODUCTS = [
     affiliateUrl: "https://amzn.to/4vi5RDm",
     description: "Handwoven natural jute planter with a sturdy wooden stand, designed to elevate indoor plants.",
     features: ["Handcrafted jute rope", "Raised wooden stand", "Lightweight & easy to move", "Perfect for indoor plants", "Modern boho aesthetic"],
+    featured: false,
+  },
+  {
+    id: 54,
+    title: "Aroma Diffuser with Wooden Finish Ultrasonic Essential Oil Humidifier",
+    group: "Home",
+    category: "Decor",
+    tag: null,
+    image: img_54,
+    affiliateUrl: "https://amzn.to/4gfijPB",
+    description: "2-in-1 ultrasonic aroma diffuser and humidifier with LED night light for a relaxing, fresh, and soothing atmosphere.",
+    features: [
+      "2-in-1 diffuser & humidifier",
+      "Whisper-quiet operation",
+      "Soft LED night light",
+      "Easy to refill & clean",
+      "Ideal for home & office"
+    ],
     featured: false,
   },
 

@@ -161,13 +161,23 @@ const CategorySidebar = ({
   };
 
   const handleGroupClick = (group) => {
-    onGroupSelect(group);
-    if (group !== "All") toggleGroup(group);
+    if (activeGroup === group) {
+      // Already active — just toggle expand, don't reset group
+      toggleGroup(group);
+    } else {
+      // New group — select it and expand it
+      onGroupSelect(group);
+      setExpandedGroups((prev) => ({ ...prev, [group]: true }));
+    }
   };
 
   const handleMobileGroupClick = (group) => {
-    onGroupSelect(group);
-    if (group !== "All") toggleMobileGroup(group);
+    if (activeGroup === group) {
+      toggleMobileGroup(group);
+    } else {
+      onGroupSelect(group);
+      setMobileExpandedGroups((prev) => ({ ...prev, [group]: true }));
+    }
   };
 
   const handleMobileCategoryClick = (category) => {
