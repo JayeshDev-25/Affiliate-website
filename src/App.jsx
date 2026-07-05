@@ -9,7 +9,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import { PRODUCTS } from "./data/products";
 
 // Build grouped structure automatically from product data
-// Result: { "Tech": ["Accessories", "Electronics"], "Men's": ["Accessories", "Fashion", "Footwear"], ... }
+
 const GROUPED_CATEGORIES = PRODUCTS.reduce((acc, p) => {
   if (!acc[p.group]) acc[p.group] = new Set();
   acc[p.group].add(p.category);
@@ -76,10 +76,6 @@ const App = () => {
     ? activeGroup
     : "Browse Products by Category";
 
-  const sectionSubtitle = searchQuery.trim()
-    ? `${filteredProducts.length} product${filteredProducts.length !== 1 ? "s" : ""} found`
-    : "Explore products across electronics, beauty, home, travel, and more.";
-
   return (
     <div className="app">
       <Navbar
@@ -99,7 +95,6 @@ const App = () => {
           <div className="section-header">
             <span className="section-eyebrow">All Products</span>
             <h2 className="section-title">{sectionTitle}</h2>
-            <p className="section-subtitle">{sectionSubtitle}</p>
           </div>
 
           <div className="products-layout">
@@ -119,8 +114,6 @@ const App = () => {
           </div>
         </div>
       </section>
-
-      
 
       {selectedProduct && (
         <ProductModal
