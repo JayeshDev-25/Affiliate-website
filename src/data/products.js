@@ -494,7 +494,7 @@ export const PRODUCTS = [
   // ─── Home → Kitchen Gadgets ──────────────────────────
   {
     id: 38,
-    title: "Seznik Mini Sealing Machine for Food Packets",
+    title: "Seznik Mini Sealing Machine",
     group: "Home",
     category: "Kitchen Gadgets",
     tag: "Food Storage",
