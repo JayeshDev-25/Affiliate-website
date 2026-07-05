@@ -273,13 +273,10 @@
 .carousel-dot {
   width: 6px;
   height: 6px;
-  border-radius: 50%;
-  background: var(--border);
-  border: none;
-  cursor: pointer;
-  transition: all var(--transition);
-  padding: 0;
-  flex-shrink: 0;
+  padding: 6px; /* invisible tap area expansion */
+  margin: -6px; /* compensate for layout shift */
+  background-clip: content-box;
+  -webkit-background-clip: content-box;
 }
 
 .carousel-dot-active {
