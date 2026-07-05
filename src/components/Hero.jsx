@@ -1,10 +1,25 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback,useRef } from "react";
 import "./Hero.css";
 
 const Hero = ({ featuredProducts, onProductClick }) => {
   const [current, setCurrent] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
+
+  const touchStart = useRef(null);
+
+  const handleTouchStart = (e) => {
+    touchStart.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = (e) => {
+    if (!touchStart.current) return;
+    const diff = touchStart.current - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 50) {
+      diff > 0 ? next() : prev();
+    }
+    touchStart.current = null;
+  };
 
   const next = useCallback(() => {
     setCurrent((prev) => (prev + 1) % featuredProducts.length);
@@ -78,6 +93,8 @@ const Hero = ({ featuredProducts, onProductClick }) => {
           className="hero-carousel"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
+          onTouchStart={handleTouchStart}
+          onTouchEnd={handleTouchEnd}
           aria-label="Featured products carousel"
         >
           {/* Card */}
