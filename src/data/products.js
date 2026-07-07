@@ -54,6 +54,9 @@ import img_52 from "../assets/images/products/52.webp";
 import img_53 from "../assets/images/products/53.webp";
 import img_54 from "../assets/images/products/54.webp";
 import img_55 from "../assets/images/products/55.webp";
+import img_56 from "../assets/images/products/56.webp";
+import img_57 from "../assets/images/products/57.webp";
+import img_58 from "../assets/images/products/58.webp";
 
 export const PRODUCTS = [
 
@@ -260,6 +263,24 @@ export const PRODUCTS = [
     affiliateUrl: "https://amzn.to/4xMxXIp",
     description: "Upgrade your formal look with these classic Bata lace-up shoes. Perfect for office and formal occasions.",
     features: ["Classic black formal design", "Lightweight & comfortable", "Soft cushioned insole", "Durable premium construction", "Secure lace-up closure"],
+    featured: false,
+  },
+  {
+    id: 57,
+    title: "Impakto Barefoot Rooted Wide Feet Shoes for Men",
+    group: "Men's",
+    category: "Footwear",
+    tag: "Running Shoes",
+    image: img_57,
+    affiliateUrl: "https://amzn.to/4yazVm9",
+    description: "Lightweight barefoot running and training shoes with a wide toe box, breathable knitted upper, and superior grip for all-day comfort.",
+    features: [
+        "Barefoot design",
+        "Wide toe box",
+        "Breathable upper",
+        "Lightweight",
+        "Superior grip"
+    ],
     featured: false,
   },
 
@@ -578,6 +599,24 @@ export const PRODUCTS = [
     features: ["Pack of 4 organizers", "Steel frame with polyester fabric", "Stackable design", "Foldable & lightweight", "Label card holders"],
     featured: false,
   },
+  {
+    id: 56,
+    title: "UHUD CRAFTS Foldable Wooden Side Table",
+    group: "Home",
+    category: "Organization",
+    tag: "Side Table",
+    image: img_56,
+    affiliateUrl: "https://amzn.to/4gY5Ks6",
+    description: "Multi-purpose foldable wooden side table for living room, bedroom, balcony, or office. Perfect as an end table, plant stand, stool, or kids table.",
+    features: [
+        "Foldable design",
+        "Multi-purpose use",
+        "Space-saving",
+        "Sturdy wooden legs",
+        "Lightweight & portable"
+    ],
+    featured: false,
+  },
 
   // ─── Home → Decor ────────────────────────────────────
   {
@@ -631,6 +670,24 @@ export const PRODUCTS = [
       "Soft LED night light",
       "Easy to refill & clean",
       "Ideal for home & office"
+    ],
+    featured: false,
+  },
+  {
+    id: 58,
+    title: "AERYS Digital Alarm Clock",
+    group: "Home",
+    category: "Decor",
+    tag: "Alarm Clock",
+    image: img_58,
+    affiliateUrl: "https://amzn.to/4f3HP82",
+    description: "Compact digital alarm clock with large display, date, temperature, and automatic night light sensor for home, office, or bedside use.",
+    features: [
+        "Large display",
+        "Date & temperature",
+        "Auto night light",
+        "Crescendo alarm",
+        "Compact design"
     ],
     featured: false,
   },
