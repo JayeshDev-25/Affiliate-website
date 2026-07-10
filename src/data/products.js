@@ -57,6 +57,12 @@ import img_55 from "../assets/images/products/55.webp";
 import img_56 from "../assets/images/products/56.webp";
 import img_57 from "../assets/images/products/57.webp";
 import img_58 from "../assets/images/products/58.webp";
+import img_59 from "../assets/images/products/59.webp";
+import img_60 from "../assets/images/products/60.webp";
+import img_61 from "../assets/images/products/61.webp";
+import img_62 from "../assets/images/products/62.webp";
+import img_63 from "../assets/images/products/63.webp";
+import img_64 from "../assets/images/products/64.webp";
 
 export const PRODUCTS = [
 
@@ -283,6 +289,24 @@ export const PRODUCTS = [
     ],
     featured: false,
   },
+  {
+    id: 62,
+    title: "Liberty Fortune HOL-125E Premium Leather Oxford Brogue Formal Shoes for Men",
+    group: "Men's",
+    category: "Footwear",
+    tag: "Best Deal",
+    image: img_62,
+    affiliateUrl: "https://link.amazon/B07A5oWcf",
+    description: "Genuine leather Oxford brogue formal shoes with a cushioned insole, offering all-day comfort and a classic look for business or wedding wear.",
+    features: [
+      "Genuine leather construction for durability",
+      "Cushioned insole for all-day comfort",
+      "Classic Oxford brogue detailing",
+      "Non-slip sole for stable footing",
+      "Available in Black, Brown, and Tan"
+    ],
+    featured: false,
+  },
 
   // ─── Men's → Accessories ─────────────────────────────
   {
@@ -384,6 +408,24 @@ export const PRODUCTS = [
     description: "Stylish and lightweight women's sneakers designed for everyday comfort, casual outings, travel, and daily wear.",
     features: ["Lightweight design", "Soft cushioned comfort", "Breathable upper", "Stylish dual-tone finish", "Strong grip outsole"],
     featured: true,
+  },
+  {
+    id: 60,
+    title: "YOHO Canvas CZ Sneakers for Women",
+    group: "Women's",
+    category: "Footwear",
+    tag: "Best Value",
+    image: img_60,
+    affiliateUrl: "https://link.amazon/B0goOZQcI",
+    description: "Lightweight, breathable canvas sneakers with a slip-resistant sole and versatile styling for everyday casual wear.",
+    features: [
+      "Trendy denim canvas upper",
+      "Flexible slip-resistant TPR sole",
+      "Breathable lining for dry, fresh feet",
+      "Cushioned insole for extra comfort",
+      "Slip-on or lace-up versatile fit"
+    ],
+    featured: false,
   },
 
   // ─── Women's → Beauty & Care ─────────────────────────
@@ -512,6 +554,27 @@ export const PRODUCTS = [
     featured: false,
   },
 
+  // ─── Home → Bath ──────────────────────────
+
+  {
+    id: 61,
+    title: "Solimo Cotton Bath Towel | 500 GSM | Fade Resistant | Dark Grey",
+    group: "Home",
+    category: "Bath",
+    tag: "Best Value",
+    image: img_61,
+    affiliateUrl: "https://link.amazon/B0ho1bjee",
+    description: "Soft, highly absorbent 500 GSM cotton bath towel with fade-resistant color and quick-dry performance for everyday use.",
+    features: [
+      "High GSM cotton fabric for superior absorbency",
+      "Fade-resistant dyes maintain vibrant color",
+      "Breathable weave reduces moisture retention",
+      "Hypoallergenic, skin-friendly finish",
+      "Quick-dry technology for busy routines"
+    ],
+    featured: false,
+  },
+
   // ─── Home → Kitchen Gadgets ──────────────────────────
   {
     id: 38,
@@ -524,6 +587,42 @@ export const PRODUCTS = [
     description: "Keep snacks and food packets fresh with this portable 2-in-1 heat sealer. USB rechargeable and perfect for airtight food storage.",
     features: ["2-in-1 heat sealer & cutter", "Airtight seals in 5 seconds", "USB Type-C rechargeable", "Magnetic back for fridge", "Compact & travel-friendly"],
     featured: true,
+  },
+  {
+    id: 59,
+    title: "Ganesh Spark Gas Lighter for Kitchen",
+    group: "Home",
+    category: "Kitchen Gadgets",
+    tag: "Gas Lighter",
+    image: img_59,
+    affiliateUrl: "https://link.amazon/B02980ENT",
+    description: "Long-lasting metal gas lighter with easy-grip handle and rust-proof design for everyday kitchen use.",
+    features: [
+        "Rust-proof metal",
+        "Easy-grip handle",
+        "Long-lasting spark",
+        "Lightweight",
+        "Kitchen essential"
+    ],
+    featured: false,
+  },
+ {
+    id: 63,
+    title: "SEZNIK Turbo Sweep 3-in-1 Handheld Vacuum Cleaner & Mop | Corded 600W 20kPa",
+    group: "Home",
+    category: "Cleaning Appliances",
+    tag: "Best Seller",
+    image: img_63,
+    affiliateUrl: "https://link.amazon/B02Uww1Yo",
+    description: "Corded 3-in-1 vacuum and mop cleaner with 600W motor and 20kPa suction, designed for quick, effective cleaning across floors, carpets, and furniture.",
+    features: [
+      "3-in-1 vacuum and mop functionality",
+      "600W motor with Turbo Sweep technology",
+      "20kPa strong suction power",
+      "200ml water tank for mopping",
+      "Lightweight, ergonomic handheld design"
+    ],
+    featured: false,
   },
 
   // ─── Home → Organization ─────────────────────────────
@@ -600,20 +699,20 @@ export const PRODUCTS = [
     featured: false,
   },
   {
-    id: 56,
-    title: "UHUD CRAFTS Foldable Wooden Side Table",
+    id: 64,
+    title: "Wall Mount Esthetic Makeup Organizer | Plastic Cosmetic Storage (Pack of 2)",
     group: "Home",
     category: "Organization",
-    tag: "Side Table",
-    image: img_56,
-    affiliateUrl: "https://amzn.to/4gY5Ks6",
-    description: "Multi-purpose foldable wooden side table for living room, bedroom, balcony, or office. Perfect as an end table, plant stand, stool, or kids table.",
+    tag: "Best Deal",
+    image: img_64,
+    affiliateUrl: "https://link.amazon/B0idopasb",
+    description: "Compact, wall-mountable cosmetic and toothbrush organizer set with a multi-compartment design and lightweight plastic build for easy bathroom storage.",
     features: [
-        "Foldable design",
-        "Multi-purpose use",
-        "Space-saving",
-        "Sturdy wooden legs",
-        "Lightweight & portable"
+      "Multi-compartment design for brushes and tubes",
+      "Compact 8 x 8 x 12 cm size",
+      "Lightweight, wall-mountable construction",
+      "Durable matte-finish plastic",
+      "Set of 2 holders included"
     ],
     featured: false,
   },
@@ -691,13 +790,31 @@ export const PRODUCTS = [
     ],
     featured: false,
   },
+  {
+    id: 56,
+    title: "UHUD CRAFTS Foldable Wooden Side Table",
+    group: "Home",
+    category: "Decor",
+    tag: "Side Table",
+    image: img_56,
+    affiliateUrl: "https://amzn.to/4gY5Ks6",
+    description: "Multi-purpose foldable wooden side table for living room, bedroom, balcony, or office. Perfect as an end table, plant stand, stool, or kids table.",
+    features: [
+      "Foldable design",
+      "Multi-purpose use",
+      "Space-saving",
+      "Sturdy wooden legs",
+      "Lightweight & portable"
+    ],
+    featured: false,
+  },
 
   // ─── Home → Home Care ────────────────────────────────
   {
     id: 41,
     title: "Klenzmo Washing Machine Cleaner & Descaler Powder",
     group: "Home",
-    category: "Home Care",
+    category: "Cleaning Appliances",
     tag: "Laundry Essential",
     image: img_41,
     affiliateUrl: "https://amzn.to/4fYbdPk",
