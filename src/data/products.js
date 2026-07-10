@@ -63,6 +63,10 @@ import img_61 from "../assets/images/products/61.webp";
 import img_62 from "../assets/images/products/62.webp";
 import img_63 from "../assets/images/products/63.webp";
 import img_64 from "../assets/images/products/64.webp";
+import img_65 from "../assets/images/products/65.webp";
+import img_66 from "../assets/images/products/66.webp";
+import img_67 from "../assets/images/products/67.webp";
+import img_68 from "../assets/images/products/68.webp";
 
 export const PRODUCTS = [
 
@@ -480,6 +484,27 @@ export const PRODUCTS = [
     featured: false,
   },
 
+  // Kids → Toys ─────────────────────────────────
+
+  {
+    id: 66,
+    title: "MiniExplorer Pottery Wheel Kit for Kids | DIY Battery Operated Pottery Making Set",
+    group: "Kids",
+    category: "Toys & Activities",
+    tag: "Best Seller",
+    image: img_66,
+    affiliateUrl: "https://link.amazon/B0hogQN5Z",
+    description: "Battery-operated DIY pottery wheel kit to boost creativity, focus, and fine motor skills in kids age 5 and above.",
+    features: [
+      "Battery-operated wheel with adjustable speed",
+      "Includes clay, sculpting tools, and paints",
+      "Removable tray for easy cleanup",
+      "Safe, non-toxic, smooth-edged materials",
+      "Great gift for birthdays and festive occasions"
+    ],
+    featured: false,
+  },
+
   // ─── Home → Kitchen ──────────────────────────────────
   {
     id: 4,
@@ -716,6 +741,24 @@ export const PRODUCTS = [
     ],
     featured: false,
   },
+  {
+    id: 65,
+    title: "TEX-RO Storage Box and Organizer | Cloth & Wardrobe Organizer (Set of 4)",
+    group: "Home",
+    category: "Organization",
+    tag: "Best Deal",
+    image: img_65,
+    affiliateUrl: "https://link.amazon/B0guvKZNu",
+    description: "Multi-compartment fabric storage organizer set designed to keep clothes, socks, underwear, and accessories neatly arranged in wardrobes, drawers, or dressing tables.",
+    features: [
+      "Set of 4 multi-color storage boxes",
+      "Multi-compartment design for easy sorting",
+      "Ideal for clothes, socks, and undergarments",
+      "Space-saving wardrobe and drawer fit",
+      "Durable, sturdy construction"
+    ],
+    featured: false,
+  },
 
   // ─── Home → Decor ────────────────────────────────────
   {
@@ -921,6 +964,42 @@ export const PRODUCTS = [
     description: "Premium PU leather journal with elegant metal coin bookmark, 200 pages of 80 GSM paper, and vintage aesthetic design.",
     features: ["200 pages 80 GSM no-bleed paper", "Premium PU leather cover", "8mm ruled line spacing", "Perfect for journaling & sketching", "Ideal gift for students & writers"],
     featured: true,
+  },
+  {
+    id: 67,
+    title: "Dual Tip Art Marker Set | 24 Colors Alcohol Sketch Markers with Case",
+    group: "Stationery & Office",
+    category: "Stationery",
+    tag: "Best Deal",
+    image: img_67,
+    affiliateUrl: "https://link.amazon/B03nPAcHJ",
+    description: "24-color dual-tip alcohol marker set with vivid, fade-resistant ink and a fine and broad tip for detailed sketching, coloring, and design work.",
+    features: [
+      "24 vibrant alcohol-based marker colors",
+      "Dual tip design: fine and broad ends",
+      "Fast-drying, fade-resistant ink",
+      "Ergonomic square-shaped body",
+      "Includes form-fitting travel case"
+    ],
+    featured: false,
+  },
+  {
+    id: 68,
+    title: "Sketchbook A5 | 50 Sheet 100 Pages | 140GSM | Pack of 2",
+    group: "Stationery & Office",
+    category: "Stationery",
+    tag: "Best Value",
+    image: img_68,
+    affiliateUrl: "https://link.amazon/B00NGsb0M",
+    description: "A5 spiral-bound sketchbook pack with durable, acid-free 140GSM paper, ideal for marker, colored pencil, and charcoal artwork.",
+    features: [
+      "140GSM acid-free drawing paper",
+      "50 sheets / 100 pages per book",
+      "Spiral-bound for flat, easy sketching",
+      "Pack of 2 sketchbooks",
+      "Suitable for artists, students, and professionals"
+    ],
+    featured: false,
   },
 
   // ─── Stationery & Office → Office ────────────────────
