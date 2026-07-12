@@ -67,6 +67,8 @@ import img_65 from "../assets/images/products/65.webp";
 import img_66 from "../assets/images/products/66.webp";
 import img_67 from "../assets/images/products/67.webp";
 import img_68 from "../assets/images/products/68.webp";
+import img_69 from "../assets/images/products/69.webp";
+import img_70 from "../assets/images/products/70.webp"; 
 
 export const PRODUCTS = [
 
@@ -504,6 +506,24 @@ export const PRODUCTS = [
     ],
     featured: false,
   },
+  {
+    id: 69,
+    title: "Mirada Black Panda Soft Face Toy - 30cm | Plush Stuffed Animal for Kids",
+    group: "Kids",
+    category: "Toys & Activities",
+    tag: "Best Seller",
+    image: img_69,
+    affiliateUrl: "https://link.amazon/B0bQodxhj",
+    description: "Soft, cuddly 30cm black panda plush toy made with skin-friendly premium fabric, perfect for toddlers and young kids as a gift or everyday companion.",
+    features: [
+      "30cm ultra-soft plush size for little arms",
+      "Skin-friendly, baby-safe premium fabric",
+      "Expressive soft face design",
+      "Reinforced stitching for durability",
+      "Great gift for birthdays and festive occasions"
+    ],
+    featured: false,
+  },
 
   // ─── Home → Kitchen ──────────────────────────────────
   {
@@ -576,6 +596,24 @@ export const PRODUCTS = [
     affiliateUrl: "https://amzn.to/43vTqrl",
     description: "Space-saving wall-mounted storage cabinet with no-drill installation, dustproof doors, and 3-layer storage for kitchens and bathrooms.",
     features: ["No-drill self-adhesive mounting", "3 spacious layers", "Waterproof construction", "Dustproof dual-door design", "Kitchen & bathroom use"],
+    featured: false,
+  },
+  {
+    id: 70,
+    title: "KiKiluxxa Coffee Glass Mug Sipper with Straw and Lid | 1 pc",
+    group: "Home",
+    category: "Kitchen",
+    tag: "Best Seller",
+    image: img_70,
+    affiliateUrl: "https://link.amazon/B08exlOYq",
+    description: "Ribbed glass sipper cup with a glass straw and lid, ideal for iced coffee, smoothies, juice, and other cold beverages at home or on the go.",
+    features: [
+      "Includes glass straw and lid",
+      "Ribbed premium glass design",
+      "Wide mouth for ice and fruit pieces",
+      "Easy to clean with included brush",
+      "Fits standard cup holders for travel"
+    ],
     featured: false,
   },
 
