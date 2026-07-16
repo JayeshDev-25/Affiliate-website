@@ -69,6 +69,8 @@ import img_67 from "../assets/images/products/67.webp";
 import img_68 from "../assets/images/products/68.webp";
 import img_69 from "../assets/images/products/69.webp";
 import img_70 from "../assets/images/products/70.webp"; 
+import img_71 from "../assets/images/products/71.webp"; 
+import img_72 from "../assets/images/products/72.webp";
 
 export const PRODUCTS = [
 
@@ -313,6 +315,24 @@ export const PRODUCTS = [
     ],
     featured: false,
   },
+  {
+    id: 71,
+    title: "SPARX Mens Sm-648 Sports Shoes",
+    group: "Men's",
+    category: "Footwear",
+    tag: "Best Value",
+    image: img_71,
+    affiliateUrl: "https://link.amazon/B01xqex02",
+    description: "Lightweight mesh sports shoes with a durable EVA sole and lace-up closure, designed for casual everyday comfort and running-inspired style.",
+    features: [
+      "Breathable mesh upper",
+      "Lightweight EVA sole",
+      "Secure lace-up closure",
+      "Flat heel, casual running style",
+      "Made in India"
+    ],
+    featured: false,
+  },
 
   // ─── Men's → Accessories ─────────────────────────────
   {
@@ -469,6 +489,24 @@ export const PRODUCTS = [
     affiliateUrl: "https://amzn.to/4uTYmST",
     description: "Brightening face wash with Kojic Acid, Vitamin C and Vitamin E that deeply cleanses and reveals smoother, more radiant skin.",
     features: ["Kojic Acid for dark spots", "Deep pore cleansing", "Vitamin C for bright skin", "Vitamin E nourishment", "All skin types"],
+    featured: false,
+  },
+  {
+    id: 72,
+    title: "TSL Lipzlite Lip Lightening Cream - Pack of 1",
+    group: "Women's",
+    category: "Beauty & Care",
+    tag: "Best Value",
+    image: img_72,
+    affiliateUrl: "https://link.amazon/B05B5NigP",
+    description: "15g lip and sensitive-area lightening cream enriched with niacinamide, glycolic acid, and vitamins, suitable for all skin types and both men and women.",
+    features: [
+      "Lightens lips, underarms, and sensitive areas",
+      "Contains niacinamide and glycolic acid",
+      "Enriched with vitamins A, C, and E",
+      "Suitable for all skin types",
+      "Usable by both men and women"
+    ],
     featured: false,
   },
 
