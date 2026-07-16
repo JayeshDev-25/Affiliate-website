@@ -71,6 +71,10 @@ import img_69 from "../assets/images/products/69.webp";
 import img_70 from "../assets/images/products/70.webp"; 
 import img_71 from "../assets/images/products/71.webp"; 
 import img_72 from "../assets/images/products/72.webp";
+import img_73 from "../assets/images/products/73.webp"; 
+import img_74 from "../assets/images/products/74.webp";
+import img_75 from "../assets/images/products/75.webp";
+import img_76 from "../assets/images/products/76.webp";
 
 export const PRODUCTS = [
 
@@ -725,6 +729,24 @@ export const PRODUCTS = [
     ],
     featured: false,
   },
+  {
+    id: 74,
+    title: "Konquer TimeS KTS Automatic Wireless Water Can Dispenser Pump for 20L Bottles",
+    group: "Home",
+    category: "Kitchen Gadgets",
+    tag: "Best Seller",
+    image: img_74,
+    affiliateUrl: "https://link.amazon/B01MTG838",
+    description: "Automatic wireless water dispenser pump for 20 litre cans, offering low-noise, one-touch operation for convenient, effortless water access.",
+    features: [
+      "Automatic wireless pump operation",
+      "Fits standard 20L water cans",
+      "Waterproof one-touch silicone button",
+      "Low noise, high efficiency motor",
+      "Food-grade silicone tube for safety"
+    ],
+    featured: false,
+  },
 
   // ─── Home → Organization ─────────────────────────────
   {
@@ -927,6 +949,42 @@ export const PRODUCTS = [
     ],
     featured: false,
   },
+  {
+    id: 73,
+    title: "DDN_R_ Turtle Coaster with Funny Expression | Cup Holder for Desk & Kitchen",
+    group: "Home",
+    category: "Decor",
+    tag: "Best Seller",
+    image: img_73,
+    affiliateUrl: "https://link.amazon/B0556RLrv",
+    description: "Novelty turtle-shaped coaster with an interactive lift-up design and heat-resistant build, perfect for mugs, cups, and quirky desk or kitchen decor.",
+    features: [
+      "Funny open-eyed turtle design",
+      "Interactive limb-lifting mechanism",
+      "Heat and water resistant plastic",
+      "Easy to wipe clean or rinse",
+      "Great gift for home or office"
+    ],
+    featured: false,
+  },
+  {
+    id: 76,
+    title: "Tree Crystal Show Piece for Home Decor | Bonsai Money Tree Plant",
+    group: "Home",
+    category: "Decor",
+    tag: "Editor's Pick",
+    image: img_76,
+    affiliateUrl: "https://link.amazon/B0f1YNnZt",
+    description: "Decorative crystal money tree showpiece with gemstone leaves, ideal as a unique home decor accent or thoughtful gift for weddings and housewarmings.",
+    features: [
+      "Handcrafted gemstone leaf design",
+      "Natural stone base",
+      "Recommended by Vastu expert",
+      "Great gift for weddings and housewarming",
+      "Unique living room decorative accent"
+    ],
+    featured: false,
+  },
 
   // ─── Home → Home Care ────────────────────────────────
   {
@@ -1074,6 +1132,24 @@ export const PRODUCTS = [
       "Spiral-bound for flat, easy sketching",
       "Pack of 2 sketchbooks",
       "Suitable for artists, students, and professionals"
+    ],
+    featured: false,
+  },
+  {
+    id: 75,
+    title: "Supreme Deals Premium Canvas Pencil Case | 6 Layer 3 Compartment (Pink)",
+    group: "Stationery & Office",
+    category: "Stationery",
+    tag: "Best Seller",
+    image: img_75,
+    affiliateUrl: "https://link.amazon/B09CCjZ5u",
+    description: "Spacious 6-layer canvas pencil case with 3 compartments and waterproof material, ideal for organizing pens, pencils, and school stationery.",
+    features: [
+      "6 layers with 3 compartments",
+      "Large main compartment with mesh pocket",
+      "Waterproof durable canvas material",
+      "Cute design with sequins and 3D patches",
+      "Great gift for kids and students"
     ],
     featured: false,
   },
