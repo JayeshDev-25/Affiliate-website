@@ -75,6 +75,9 @@ import img_73 from "../assets/images/products/73.webp";
 import img_74 from "../assets/images/products/74.webp";
 import img_75 from "../assets/images/products/75.webp";
 import img_76 from "../assets/images/products/76.webp";
+import img_77 from "../assets/images/products/77.webp"; 
+import img_78 from "../assets/images/products/78.webp";
+import img_79 from "../assets/images/products/79.webp"; 
 
 export const PRODUCTS = [
 
@@ -243,6 +246,42 @@ export const PRODUCTS = [
     affiliateUrl: "https://amzn.to/4esBQeb",
     description: "A stylish striped polo T-shirt featuring a modern zip collar, breathable fabric, and relaxed fit for everyday comfort.",
     features: ["Modern zip collar design", "Lightweight breathable fabric", "Comfortable loose-fit", "Casual and smart-casual wear", "Ideal for summer"],
+    featured: false,
+  },
+  {
+    id: 78,
+    title: "Men's Pink and White Striped Long Sleeve Button-Down Shirt with Chest Pocket",
+    group: "Men's",
+    category: "Fashion",
+    tag: "Best Value",
+    image: img_78,
+    affiliateUrl: "https://link.amazon/B0hgNQevW",
+    description: "Pink and white striped long sleeve button-down shirt with a relaxed fit, spread collar, and chest pocket for a smart-casual everyday look.",
+    features: [
+      "Classic pink and white striped design",
+      "Button-down spread collar",
+      "Long sleeves with buttoned cuffs",
+      "Relaxed fit, waffle textured fabric",
+      "Single chest pocket detail"
+    ],
+    featured: false,
+  },
+  {
+    id: 79,
+    title: "JVX Men T-Shirt | Full Sleeve T Shirt (MRT-209)",
+    group: "Men's",
+    category: "Fashion",
+    tag: "Best Value",
+    image: img_79,
+    affiliateUrl: "https://link.amazon/B0c9iUOBl",
+    description: "Sage green full sleeve collared T-shirt with a contrast collar and plain design, offering a comfortable, versatile casual look.",
+    features: [
+      "Full sleeve collared design",
+      "Contrast white collar and placket",
+      "Plain pattern for versatile styling",
+      "Comfortable regular fit",
+      "Color may vary due to lighting"
+    ],
     featured: false,
   },
 
@@ -655,6 +694,24 @@ export const PRODUCTS = [
       "Wide mouth for ice and fruit pieces",
       "Easy to clean with included brush",
       "Fits standard cup holders for travel"
+    ],
+    featured: false,
+  },
+  {
+    id: 77,
+    title: "Amul Sugar Free Dark Chocolate, 150 Gm",
+    group: "Home",
+    category: "Kitchen",
+    tag: "Best Value",
+    image: img_77,
+    affiliateUrl: "https://link.amazon/B0iGGbDtm",
+    description: "Sugar-free dark chocolate bar made with rich cocoa, offering a guilt-free treat that's a natural source of antioxidants with no added vegetable fat.",
+    features: [
+      "Sugar-free dark chocolate recipe",
+      "55% rich in cocoa",
+      "Natural source of antioxidants",
+      "No vegetable fat added",
+      "Vegetarian, dairy-based ingredients"
     ],
     featured: false,
   },
