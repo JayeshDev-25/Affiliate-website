@@ -78,6 +78,12 @@ import img_76 from "../assets/images/products/76.webp";
 import img_77 from "../assets/images/products/77.webp"; 
 import img_78 from "../assets/images/products/78.webp";
 import img_79 from "../assets/images/products/79.webp"; 
+import img_80 from "../assets/images/products/80.webp"; 
+import img_81 from "../assets/images/products/81.webp";
+import img_82 from "../assets/images/products/82.webp";
+import img_83 from "../assets/images/products/83.webp";
+import img_84 from "../assets/images/products/84.webp";
+import img_85 from "../assets/images/products/85.webp";
 
 export const PRODUCTS = [
 
@@ -228,7 +234,7 @@ export const PRODUCTS = [
     id: 43,
     title: "TIMEWEAR Analog Watch for Men",
     group: "Men's",
-    category: "Fashion",
+    category: "Accessories",
     tag: "Best Amazon Find",
     image: img_43,
     affiliateUrl: "https://amzn.to/4gAVplJ",
@@ -281,6 +287,24 @@ export const PRODUCTS = [
       "Plain pattern for versatile styling",
       "Comfortable regular fit",
       "Color may vary due to lighting"
+    ],
+    featured: false,
+  },
+  {
+    id: 80,
+    title: "ROYALSCOUT Men's Short Kurta | Mandarin Collar Full Sleeve Pullover Kurta",
+    group: "Men's",
+    category: "Fashion",
+    tag: "Best Deal",
+    image: img_80,
+    affiliateUrl: "https://link.amazon/B03VeWNNC",
+    description: "Cotton blend short kurta with a mandarin collar and pullover style, offering a regular comfortable fit for casual and festive ethnic wear.",
+    features: [
+      "Soft, breathable cotton blend fabric",
+      "Mandarin collar with button placket",
+      "Full sleeves, pullover style",
+      "Regular comfortable fit",
+      "Available in multiple colors"
     ],
     featured: false,
   },
@@ -408,7 +432,7 @@ export const PRODUCTS = [
     id: 19,
     title: "Zouk Women's Office Laptop Bag",
     group: "Women's",
-    category: "Fashion",
+    category: "Accessories",
     tag: "Best Seller",
     image: img_19,
     affiliateUrl: "https://amzn.to/3S2huQ0",
@@ -420,7 +444,7 @@ export const PRODUCTS = [
     id: 24,
     title: "Handmade Macrame Sling Bag",
     group: "Women's",
-    category: "Fashion",
+    category: "Accessories",
     tag: "Boho Chic",
     image: img_24,
     affiliateUrl: "https://amzn.to/4e5sBjL",
@@ -432,7 +456,7 @@ export const PRODUCTS = [
     id: 49,
     title: "LA GLARE Soft Fabric Sling Bag",
     group: "Women's",
-    category: "Fashion",
+    category: "Accessories",
     tag: "Women's Accessories",
     image: img_49,
     affiliateUrl: "https://amzn.to/4v5j4P6",
@@ -444,12 +468,66 @@ export const PRODUCTS = [
     id: 51,
     title: "Styledose Rose Gold Diamond Studded Women's Watch",
     group: "Women's",
-    category: "Fashion",
+    category: "Accessories",
     tag: "Women's Watch",
     image: img_51,
     affiliateUrl: "https://amzn.to/4ambTud",
     description: "A stylish rose gold analogue watch featuring a slim bracelet design and diamond-studded dial. Perfect for everyday elegance and gifting.",
     features: ["Diamond studded dial", "Rose gold bracelet strap", "Slim & lightweight design", "Japanese quartz movement", "Perfect gift option"],
+    featured: false,
+  },
+  {
+    id: 81,
+    title: "Nermosa High-Waist Korean Trousers | Wide Baggy Fit GenZ Streetwear Pants",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Best Deal",
+    image: img_81,
+    affiliateUrl: "https://link.amazon/B01K1he4U",
+    description: "High-waist wide-leg trousers with a pleated Korean streetwear style, offering a loose, breathable fit for casual, everyday outfits.",
+    features: [
+      "High-waist wide-leg design",
+      "Korean streetwear inspired style",
+      "Loose, breathable fabric",
+      "Pairs well with crop tops or hoodies",
+      "Available in 5 colors"
+    ],
+    featured: false,
+  },
+  {
+    id: 84,
+    title: "RIEKA Womens Floral Applique Embroidered Tunic Top | Mandarin Collar Half Sleeve",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Best Seller",
+    image: img_84,
+    affiliateUrl: "https://link.amazon/B0aRE37DA",
+    description: "Soft, breathable floral applique embroidered tunic top with a mandarin collar and relaxed curved hemline for versatile everyday styling.",
+    features: [
+      "Delicate white floral applique embroidery",
+      "Mandarin collar with button-down front",
+      "Soft, breathable lightweight fabric",
+      "Relaxed fit with curved hemline",
+      "Versatile for casual, office, and vacation wear"
+    ],
+    featured: false,
+  },
+  {
+    id: 85,
+    title: "ADISA Crossbody Bag for Women | Laser Cut Sling Bag with Gold Chain",
+    group: "Women's",
+    category: "Accessories",
+    tag: "Best Deal",
+    image: img_85,
+    affiliateUrl: "https://link.amazon/B0idsB9dx",
+    description: "Laser-cut PU leather crossbody sling bag with a gold chain strap and magnetic closure, offering organized storage in a compact, stylish design.",
+    features: [
+      "Laser-cut premium PU leather design",
+      "Elegant gold chain shoulder strap",
+      "Secure magnetic flap closure",
+      "Two compartments and one pocket",
+      "Compact size: 7.1 × 3 × 5.5 inches"
+    ],
     featured: false,
   },
 
@@ -493,6 +571,42 @@ export const PRODUCTS = [
       "Breathable lining for dry, fresh feet",
       "Cushioned insole for extra comfort",
       "Slip-on or lace-up versatile fit"
+    ],
+    featured: false,
+  },
+  {
+    id: 82,
+    title: "Carrito Women Wedge Heels Thong Sandals | Cushioned Orthopaedic Flats",
+    group: "Women's",
+    category: "Footwear",
+    tag: "Best Seller",
+    image: img_82,
+    affiliateUrl: "https://link.amazon/B04Ev7l7Q",
+    description: "Wedge thong sandals with a cushioned footbed, buckle accent strap, and anti-skid sole, designed for all-day comfort and versatile everyday styling.",
+    features: [
+      "Gentle wedge heel for posture support",
+      "Ultra-cushioned shock-absorbing footbed",
+      "Trendy buckle accent strap",
+      "Lightweight anti-skid sole",
+      "Versatile for ethnic and casual wear"
+    ],
+    featured: false,
+  },
+  {
+    id: 83,
+    title: "GG360 Women's Platform Slide Sandals | Cushioned Double Strap Monogram Flats",
+    group: "Women's",
+    category: "Footwear",
+    tag: "Best Value",
+    image: img_83,
+    affiliateUrl: "https://link.amazon/B0fqNAaTO",
+    description: "Beige monogram-printed platform slide sandals with a cushioned double strap and elevated sole for stylish, comfortable everyday wear.",
+    features: [
+      "Soft cushioned footbed for all-day comfort",
+      "Elevated platform sole for added height",
+      "Stylish beige monogram print design",
+      "Easy double strap slip-on style",
+      "Versatile for daily wear and travel"
     ],
     featured: false,
   },
