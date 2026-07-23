@@ -84,6 +84,12 @@ import img_82 from "../assets/images/products/82.webp";
 import img_83 from "../assets/images/products/83.webp";
 import img_84 from "../assets/images/products/84.webp";
 import img_85 from "../assets/images/products/85.webp";
+import img_86 from "../assets/images/products/86.webp";
+import img_87 from "../assets/images/products/87.webp";
+import img_88 from "../assets/images/products/88.webp";
+import img_89 from "../assets/images/products/89.webp";
+import img_90 from "../assets/images/products/90.webp";
+import img_91 from "../assets/images/products/91.webp";
 
 export const PRODUCTS = [
 
@@ -308,6 +314,24 @@ export const PRODUCTS = [
     ],
     featured: false,
   },
+  {
+    id: 87,
+    title: "GUSTAVE Vintage Newsboy Cap | Adjustable Cotton Blend Gatsby Ivy Flat Cap",
+    group: "Men's",
+    category: "Fashion",
+    tag: "Editor's Pick",
+    image: img_87,
+    affiliateUrl: "https://link.amazon/B07UiqNDB",
+    description: "Vintage-inspired cotton blend newsboy flat cap with an adjustable strap and warm interior lining, perfect for cold weather and retro 1920s Gatsby styling.",
+    features: [
+      "Soft breathable cotton blend fabric",
+      "Plush interior lining for warmth",
+      "Adjustable back strap for most head sizes",
+      "Classic structured brim paneled design",
+      "Versatile for casual and vintage-inspired looks"
+    ],
+    featured: false,
+  },
 
   // ─── Men's → Footwear ────────────────────────────────
   {
@@ -320,6 +344,24 @@ export const PRODUCTS = [
     affiliateUrl: "https://amzn.to/4w7thuX",
     description: "Lightweight sports shoes designed for everyday comfort, walking, travel, and casual wear with a stylish all-white look.",
     features: ["Breathable mesh upper", "Comfortable lace-up design", "Durable rubber outsole", "Lightweight for daily wear", "Made in India"],
+    featured: false,
+  },
+  {
+    id: 86,
+    title: "SVAAR Men's Marble Effect Classic Clogs | Sandals with Adjustable Back Strap",
+    group: "Men's",
+    category: "Footwear",
+    tag: "Best Value",
+    image: img_86,
+    affiliateUrl: "https://link.amazon/B0gxjbqeC",
+    description: "Lightweight EVA classic clogs with a marble effect design, anti-skid sole, and adjustable back strap for all-day comfort and casual versatility.",
+    features: [
+      "Advanced EVA material for cloud-like comfort",
+      "Adjustable back strap for secure fit",
+      "Anti-skid, water-resistant sole",
+      "Ultra-lightweight and flexible construction",
+      "Versatile for beach, city, and casual wear"
+    ],
     featured: false,
   },
   {
@@ -527,6 +569,78 @@ export const PRODUCTS = [
       "Secure magnetic flap closure",
       "Two compartments and one pocket",
       "Compact size: 7.1 × 3 × 5.5 inches"
+    ],
+    featured: false,
+  },
+  {
+    id: 88,
+    title: "Mikasa Premium Checkered Acrylic Woolen Muffler/Scarf/Stole for Men & Women",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Best Value",
+    image: img_88,
+    affiliateUrl: "https://link.amazon/B0b3CuEE8",
+    description: "Soft acrylic woolen muffler with a classic check pattern, versatile as a scarf or stole for casual and semi-formal winter styling.",
+    features: [
+      "Soft, high-quality acrylic wool fabric",
+      "Wearable as muffler, scarf, or stole",
+      "Classic check pattern design",
+      "Suitable for men and women",
+      "Available in multiple colors"
+    ],
+    featured: false,
+  },
+  {
+    id: 89,
+    title: "Cotton Kurta Women Chikankari Net Embroidery Dress | Summer Festive Wear",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Best Deal",
+    image: img_89,
+    affiliateUrl: "https://link.amazon/B02zkH83Z",
+    description: "Soft breathable cotton Chikankari embroidered kurta with a straight cut silhouette, ideal for summer wear, casual gatherings, and festive occasions.",
+    features: [
+      "Intricate Chikankari floral embroidery",
+      "Soft, breathable cotton fabric",
+      "Straight cut flattering silhouette",
+      "Available in sizes S to 3XL",
+      "Suitable for casual and festive occasions"
+    ],
+    featured: false,
+  },
+  {
+    id: 90,
+    title: "Stylum Women's Floral Printed Cotton Flared Dress | Baby Pink Maxi Dress",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Best Deal",
+    image: img_90,
+    affiliateUrl: "https://link.amazon/B0aFecmgX",
+    description: "Soft cotton floral printed maxi dress with a shirt collar, tiered flared skirt, and waist tie, ideal for casual summer wear and outings.",
+    features: [
+      "Baby pink floral cotton print",
+      "Shirt collar with short sleeves",
+      "Tiered flared skirt with waist tie",
+      "Calf/maxi length at 47 inches",
+      "Regular fit for all-day comfort"
+    ],
+    featured: false,
+  },
+  {
+    id: 91,
+    title: "TOPLOT Women's Floral Georgette Shrug | Stylish Boho Layering Top",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Best Seller",
+    image: img_91,
+    affiliateUrl: "https://link.amazon/B0iWW3Mn3",
+    description: "Lightweight georgette floral print shrug with an open front design, ideal for layering over casual or beach outfits for a boho-inspired look.",
+    features: [
+      "Lightweight georgette floral print fabric",
+      "Open front drape design",
+      "Versatile layering over tops or swimwear",
+      "Suitable for casual, beach, and festive wear",
+      "Available in multiple colors and pack of 2"
     ],
     featured: false,
   },
