@@ -90,6 +90,11 @@ import img_88 from "../assets/images/products/88.webp";
 import img_89 from "../assets/images/products/89.webp";
 import img_90 from "../assets/images/products/90.webp";
 import img_91 from "../assets/images/products/91.webp";
+import img_92 from "../assets/images/products/92.webp";
+import img_93 from "../assets/images/products/93.webp";
+import img_94 from "../assets/images/products/94.webp";
+import img_95 from "../assets/images/products/95.webp";
+import img_96 from "../assets/images/products/96.webp";
 
 export const PRODUCTS = [
 
@@ -519,6 +524,24 @@ export const PRODUCTS = [
     featured: false,
   },
   {
+    id: 95,
+    title: "Shining Diva Fashion 5Pcs Heart Butterfly Pearl Necklace Jewellery Set for Women",
+    group: "Women's",
+    category: "Accessories",
+    tag: "Best Seller",
+    image: img_95,
+    affiliateUrl: "https://link.amazon/B0iUe7v2a",
+    description: "Set of 5 gold-toned pendant necklaces in heart, butterfly, pearl, moon, and star designs, gift-ready on kraft cards and made from skin-friendly alloy.",
+    features: [
+      "Set of 5 uniquely styled pendant necklaces",
+      "Heart, butterfly, pearl, star and moon designs",
+      "Skin-friendly, rust-resistant alloy material",
+      "Each necklace on a gift-ready kraft card",
+      "Perfect for birthdays and festive gifting"
+    ],
+    featured: false,
+  },
+  {
     id: 81,
     title: "Nermosa High-Waist Korean Trousers | Wide Baggy Fit GenZ Streetwear Pants",
     group: "Women's",
@@ -641,6 +664,78 @@ export const PRODUCTS = [
       "Versatile layering over tops or swimwear",
       "Suitable for casual, beach, and festive wear",
       "Available in multiple colors and pack of 2"
+    ],
+    featured: false,
+  },
+  {
+    id: 92,
+    title: "GRECIILOOKS Women's Boho Printed Palazzo Harem Trousers | Elastic Waist",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Best Deal",
+    image: img_92,
+    affiliateUrl: "https://link.amazon/B0d9hdrap",
+    description: "Soft rayon boho printed wide-leg palazzo trousers with an elastic high waist, ideal for casual, beach, festival, and lounge wear.",
+    features: [
+      "Soft breathable rayon fabric",
+      "Vibrant floral paisley boho print",
+      "Elastic high waist with tie belt",
+      "Relaxed wide-leg flowy silhouette",
+      "Available in plus sizes"
+    ],
+    featured: false,
+  },
+  {
+    id: 93,
+    title: "OOMPH! Women Floral Printed Wide Leg Trousers | Elasticated Waist Palazzo Pants",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Best Value",
+    image: img_93,
+    affiliateUrl: "https://link.amazon/B0bKeqiwq",
+    description: "Bold floral printed wide-leg palazzo trousers with an elasticated waistband and relaxed fit, made from breathable polyester for casual western wear.",
+    features: [
+      "Bold black floral line art print",
+      "Breathable polyester fabric",
+      "Elasticated waistband for comfort",
+      "Relaxed wide-leg silhouette",
+      "Machine washable, easy care"
+    ],
+    featured: false,
+  },
+  {
+    id: 94,
+    title: "Shasmi Women's V-Neck A-Line Maxi Dress | Puff Sleeve Waist Cinched Party Dress",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Best Seller",
+    image: img_94,
+    affiliateUrl: "https://link.amazon/B0ccNQzbw",
+    description: "Elegant V-neck A-line maxi dress with short puff sleeves and a ruched cinched waist, crafted from a comfortable polyester-spandex blend for parties and formal occasions.",
+    features: [
+      "V-neck with short puff sleeves",
+      "Ruched cinched waist detail",
+      "Flowing A-line maxi silhouette",
+      "95% polyester, 5% spandex stretch fabric",
+      "Versatile for parties and formal events"
+    ],
+    featured: false,
+  },
+  {
+    id: 96,
+    title: "KLOSIA Women's Rayon Printed Anarkali Kurta and Pant with Dupatta Set",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Best Seller",
+    image: img_96,
+    affiliateUrl: "https://link.amazon/B047a42TN",
+    description: "Printed Anarkali kurta set with ankle-length pants and dupatta, crafted in viscose fabric with ethnic block prints for festive and casual wear.",
+    features: [
+      "3-piece Anarkali kurta, pant and dupatta set",
+      "Intricate ethnic block print design",
+      "Comfortable viscose fabric",
+      "3/4 sleeves with contrasting border",
+      "Available in sizes S to 5XL"
     ],
     featured: false,
   },
