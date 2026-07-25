@@ -95,6 +95,8 @@ import img_93 from "../assets/images/products/93.webp";
 import img_94 from "../assets/images/products/94.webp";
 import img_95 from "../assets/images/products/95.webp";
 import img_96 from "../assets/images/products/96.webp";
+import img_97 from "../assets/images/products/97.webp";
+import img_98 from "../assets/images/products/98.webp";
 
 export const PRODUCTS = [
 
@@ -739,6 +741,24 @@ export const PRODUCTS = [
     ],
     featured: false,
   },
+  {
+    id: 97,
+    title: "Amazon Brand - Tavasya Women Cotton Solid Straight Chikankari Kurta",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Best Value",
+    image: img_97,
+    affiliateUrl: "https://link.amazon/B04KXGfwE",
+    description: "Lightweight cotton straight kurta with all-over Chikankari white thread embroidery, ideal for daily wear and festive occasions.",
+    features: [
+      "All-over white Chikankari thread embroidery",
+      "Straight cut sleek silhouette",
+      "Three-quarter sleeves with embroidered detail",
+      "Lightweight breathable cotton fabric",
+      "Suitable for daily and festive wear"
+    ],
+    featured: false,
+  },
 
   // ─── Women's → Footwear ──────────────────────────────
   {
@@ -1362,6 +1382,24 @@ export const PRODUCTS = [
       "Recommended by Vastu expert",
       "Great gift for weddings and housewarming",
       "Unique living room decorative accent"
+    ],
+    featured: false,
+  },
+  {
+    id: 98,
+    title: "Orpat Plastic Beep Analog Alarm Clock (Black, Tbb-137)",
+    group: "Home",
+    category: "Decor",
+    tag: "Best Value",
+    image: img_98,
+    affiliateUrl: "https://link.amazon/B02wnW9ZD",
+    description: "Compact black plastic analog alarm clock with quartz movement and a loud beep alarm, ideal for bedroom and desk use with a 1-year warranty.",
+    features: [
+      "Quartz analog movement",
+      "Loud beep alarm function",
+      "Bold white dial with clear numerals",
+      "Durable plastic build",
+      "1 year manufacturer warranty"
     ],
     featured: false,
   },
