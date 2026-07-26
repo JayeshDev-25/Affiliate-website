@@ -99,6 +99,10 @@ import img_97 from "../assets/images/products/97.webp";
 import img_98 from "../assets/images/products/98.webp";
 import img_99 from "../assets/images/products/99.webp";
 import img_100 from "../assets/images/products/100.webp";
+import img_101 from "../assets/images/products/101.webp";
+import img_102 from "../assets/images/products/102.webp";
+import img_103 from "../assets/images/products/103.webp";
+import img_104 from "../assets/images/products/104.webp";
 
 export const PRODUCTS = [
 
@@ -797,7 +801,6 @@ export const PRODUCTS = [
     ],
     featured: false,
   },
-
   // ─── Women's → Footwear ──────────────────────────────
   {
     id: 27,
@@ -945,6 +948,24 @@ export const PRODUCTS = [
     affiliateUrl: "https://amzn.to/4v20QOl",
     description: "Keep your little one stylish and comfortable with this trendy color block shirt and shorts co-ord set. Crafted from soft breathable fabric.",
     features: ["Soft & breathable fabric", "Modern color block design", "Half sleeve button-up shirt", "Elastic waist shorts", "Perfect for summer & daily wear"],
+    featured: false,
+  },
+  {
+    id: 102,
+    title: "Coloressence Coffee Coats Nude Nail Paint Kit Set of 5 with Free Nail Polish Remover",
+    group: "Women's",
+    category: "Beauty & Care",
+    tag: "Best Value",
+    image: img_102,
+    affiliateUrl: "https://link.amazon/B09ivQ4on",
+    description: "Set of 5 nude coffee-toned nail polishes with a glossy quick-dry formula and chip-resistant finish, including a free nail polish remover.",
+    features: [
+      "5 warm nude coffee shade nail polishes",
+      "High-shine glossy finish in 2 coats",
+      "Quick-dry chip-resistant formula",
+      "Free nail polish remover included",
+      "Compact gift-ready set"
+    ],
     featured: false,
   },
 
@@ -1441,6 +1462,24 @@ export const PRODUCTS = [
     ],
     featured: false,
   },
+  {
+    id: 101,
+    title: "XERGY Meteor Lights 8 Tube 192 LED Waterproof Falling Rain Fairy String Lights",
+    group: "Home",
+    category: "Decor",
+    tag: "Best Deal",
+    image: img_101,
+    affiliateUrl: "https://link.amazon/B09xfn7kA",
+    description: "8-tube 192 LED warm white meteor shower fairy lights with IP65 waterproof rating, ideal for Diwali, Christmas, outdoor trees, patios, and festive decor.",
+    features: [
+      "8 tubes with 192 warm white LEDs",
+      "IP65 waterproof for outdoor use",
+      "Sequential falling meteor shower effect",
+      "Safe low-voltage design",
+      "Connectable up to 4 sets in series"
+    ],
+    featured: false,
+  },
 
   // ─── Home → Home Care ────────────────────────────────
   {
@@ -1453,6 +1492,24 @@ export const PRODUCTS = [
     affiliateUrl: "https://amzn.to/4fYbdPk",
     description: "Deep cleaning descaler powder that removes limescale, detergent residue, grime, and odors from washing machines.",
     features: ["Removes limescale buildup", "Eliminates odor & grime", "Microclean technology", "Safe biodegradable formula", "All washing machine brands"],
+    featured: false,
+  },
+  {
+    id: 103,
+    title: "Electric Heating Bag Heat Pouch for Pain Relief | TC-Grey Velvet",
+    group: "Home",
+    category: "Home Care",
+    tag: "Best Value",
+    image: img_103,
+    affiliateUrl: "https://link.amazon/B07urAgrJ",
+    description: "Rechargeable electric gel heating bag that provides up to 120 minutes of soothing warmth with no water required, ideal for pain relief and cold weather comfort.",
+    features: [
+      "7–10 min charge for up to 120 min warmth",
+      "No water required — gel-filled design",
+      "Relieves backache, cramps and muscle pain",
+      "Portable and low electricity consumption",
+      "Soft velvet polka dot cover"
+    ],
     featured: false,
   },
 
@@ -1606,6 +1663,24 @@ export const PRODUCTS = [
       "Waterproof durable canvas material",
       "Cute design with sequins and 3D patches",
       "Great gift for kids and students"
+    ],
+    featured: false,
+  },
+  {
+    id: 104,
+    title: "Weekly Planner with Habit Tracker | Undated Spiral Bound Productivity Organiser 54 Sheets",
+    group: "Stationery & Office",
+    category: "Stationery",
+    tag: "Best Amazon Find",
+    image: img_104,
+    affiliateUrl: "https://link.amazon/B0eNfiFUY",
+    description: "Undated spiral bound weekly planner with a habit tracker, priority sections, and to-do lists across 54 sheets for flexible everyday productivity.",
+    features: [
+      "Weekly layout with habit tracking grid",
+      "Undated flexible design — start anytime",
+      "Sections for priorities, notes and follow-ups",
+      "Spiral bound easy-flip design",
+      "54 sheets — over a year of planning"
     ],
     featured: false,
   },
