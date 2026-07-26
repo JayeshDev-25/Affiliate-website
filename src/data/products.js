@@ -97,6 +97,8 @@ import img_95 from "../assets/images/products/95.webp";
 import img_96 from "../assets/images/products/96.webp";
 import img_97 from "../assets/images/products/97.webp";
 import img_98 from "../assets/images/products/98.webp";
+import img_99 from "../assets/images/products/99.webp";
+import img_100 from "../assets/images/products/100.webp";
 
 export const PRODUCTS = [
 
@@ -756,6 +758,42 @@ export const PRODUCTS = [
       "Three-quarter sleeves with embroidered detail",
       "Lightweight breathable cotton fabric",
       "Suitable for daily and festive wear"
+    ],
+    featured: false,
+  },
+  {
+    id: 99,
+    title: "Amazon Brand - Myx Women Embroidered Straight Fit Kurta | Plus Sizes Available",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Best Deal",
+    image: img_99,
+    affiliateUrl: "https://link.amazon/B0isSo9nd",
+    description: "Black Liva Eco Rayon straight kurta with an embroidered floral yoke and all-over buti design, offering a festive ethnic look in sizes XS to 7XL.",
+    features: [
+      "Richly embroidered floral yoke",
+      "All-over buti embroidery on body",
+      "Eco-friendly Liva Eco Rayon fabric",
+      "Three-quarter sleeves with contrast cuffs",
+      "Available in sizes XS to 7XL"
+    ],
+    featured: false,
+  },
+  {
+    id: 100,
+    title: "INDO ERA Women Rayon Viscose Floral Embroidered A-Line Kurta With Pant Co-Ord Set",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Editor's Pick",
+    image: img_100,
+    affiliateUrl: "https://link.amazon/B0iLLfMjz",
+    description: "Soft rayon viscose A-line kurta with large blue floral embroidery and pintuck detailing, paired with coordinated straight pants for effortless ethnic styling.",
+    features: [
+      "Large blue floral embroidery design",
+      "Pintuck detailing on front",
+      "Soft breathable rayon viscose fabric",
+      "Coordinated straight pant included",
+      "Suitable for casual, office and daily wear"
     ],
     featured: false,
   },
