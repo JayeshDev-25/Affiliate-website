@@ -103,6 +103,10 @@ import img_101 from "../assets/images/products/101.webp";
 import img_102 from "../assets/images/products/102.webp";
 import img_103 from "../assets/images/products/103.webp";
 import img_104 from "../assets/images/products/104.webp";
+import img_105 from "../assets/images/products/105.webp";
+import img_106 from "../assets/images/products/106.webp";
+import img_107 from "../assets/images/products/107.webp";
+import img_108 from "../assets/images/products/108.webp";
 
 export const PRODUCTS = [
 
@@ -481,6 +485,24 @@ export const PRODUCTS = [
     features: ["12 watch compartments", "Soft velvet interior", "Premium PU leather finish", "Anti-rust lock design", "Great gift for watch collectors"],
     featured: false,
   },
+  {
+    id: 107,
+    title: "Vega Ryker D/V Bolder Full Face Helmet | Black Red | ISI Certified",
+    group: "Men's",
+    category: "Accessories",
+    tag: "Best Amazon Find",
+    image: img_107,
+    affiliateUrl: "https://link.amazon/B0hF9qaV4",
+    description: "ISI certified full face bike helmet with a high-impact ABS shell, scratch-resistant UV visor, 6-point ventilation, and removable washable liner for daily riding.",
+    features: [
+      "ISI certified high-impact ABS shell",
+      "Scratch and UV-resistant optical visor",
+      "6-point ventilation system",
+      "Removable washable odor-resistant liner",
+      "Metallic quick-release silent buckle"
+    ],
+    featured: false,
+  },
 
   // ─── Women's → Fashion ───────────────────────────────
   {
@@ -546,6 +568,24 @@ export const PRODUCTS = [
       "Skin-friendly, rust-resistant alloy material",
       "Each necklace on a gift-ready kraft card",
       "Perfect for birthdays and festive gifting"
+    ],
+    featured: false,
+  },
+  {
+    id: 106,
+    title: "TVS MissFit Women's Open Face Helmet | Lightweight ISI DOT Certified Scooter Helmet",
+    group: "Women's",
+    category: "Accessories",
+    tag: "Best Amazon Find",
+    image: img_106,
+    affiliateUrl: "https://link.amazon/B0fpgGkmz",
+    description: "Lightweight ISI and DOT certified open face helmet for women with an ABS shell, removable microfiber liner, and aerodynamic scratch-resistant design for safe daily riding.",
+    features: [
+      "ISI 4151 and DOT FMVSS 218 certified",
+      "High-impact ABS aerodynamic shell",
+      "Soft removable washable microfiber liner",
+      "Scratch-resistant UV-protected clear visor",
+      "Quick-release chin strap with dynamic vents"
     ],
     featured: false,
   },
@@ -730,6 +770,24 @@ export const PRODUCTS = [
     featured: false,
   },
   {
+    id: 108,
+    title: "SMOWKLY Women's Cotton Blend Motif Chevron Print Kurta Palazzo Set",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Best Deal",
+    image: img_108,
+    affiliateUrl: "https://link.amazon/B02gRnvkr",
+    description: "Beige cotton blend motif kurta with Chinese collar and chevron print wide palazzo pants, offering a modern ethnic look for office, festive, and casual wear.",
+    features: [
+      "Digital motif print straight kurta",
+      "Bold chevron print wide palazzo pants",
+      "Chinese collar with 3/4 sleeves",
+      "Breathable 80% cotton 20% polyester blend",
+      "Elastic waistband for flexible comfort"
+    ],
+    featured: false,
+  },
+  {
     id: 96,
     title: "KLOSIA Women's Rayon Printed Anarkali Kurta and Pant with Dupatta Set",
     group: "Women's",
@@ -877,6 +935,24 @@ export const PRODUCTS = [
       "Stylish beige monogram print design",
       "Easy double strap slip-on style",
       "Versatile for daily wear and travel"
+    ],
+    featured: false,
+  },
+  {
+    id: 105,
+    title: "SilverArrow Denim Strap Block Heels Sandals for Women | Raffia Flower Detail",
+    group: "Women's",
+    category: "Footwear",
+    tag: "Best Value",
+    image: img_105,
+    affiliateUrl: "https://link.amazon/B0ajcknN0",
+    description: "Beige denim strap block heel sandals with raffia flower embellishments and a soft flexible sole, ideal for casual, party, and formal wear.",
+    features: [
+      "Decorative raffia flower strap detail",
+      "Lightweight sturdy block heel",
+      "Soft shock-absorbing flexible midsole",
+      "Easy slip-on design",
+      "Versatile for casual, party and formal wear"
     ],
     featured: false,
   },
