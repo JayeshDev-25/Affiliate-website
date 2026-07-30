@@ -107,6 +107,10 @@ import img_105 from "../assets/images/products/105.webp";
 import img_106 from "../assets/images/products/106.webp";
 import img_107 from "../assets/images/products/107.webp";
 import img_108 from "../assets/images/products/108.webp";
+import img_109 from "../assets/images/products/109.webp";
+import img_110 from "../assets/images/products/110.webp";
+import img_111 from "../assets/images/products/111.webp";
+import img_112 from "../assets/images/products/112.webp";
 
 export const PRODUCTS = [
 
@@ -264,6 +268,24 @@ export const PRODUCTS = [
     description: "A sleek and elegant analog watch featuring a slim dial and premium leather strap. Perfect for daily wear, office outfits, casual looks, and gifting.",
     features: ["Ultra-slim minimalist dial", "Comfortable leather strap", "Lightweight all-day wear", "Casual & formal versatility", "Classic timeless look"],
     featured: true,
+  },
+  {
+    id: 110,
+    title: "United Colors of Benetton Apex 33L Backpack | Water-Resistant 3-Compartment",
+    group: "Men's",
+    category: "Accessories",
+    tag: "Best Amazon Find",
+    image: img_110,
+    affiliateUrl: "https://link.amazon/B0d3hhwbW",
+    description: "33L water-resistant minimalist backpack with 3 compartments and a detachable pouch, ideal for work, school, and travel with a 1-year warranty.",
+    features: [
+      "33L capacity with 3-compartment layout",
+      "Detachable front pouch for valuables",
+      "Water-resistant durable build",
+      "Dimensions: 49 x 33 x 22 cm",
+      "1-year manufacturer warranty"
+    ],
+    featured: false,
   },
   {
     id: 46,
@@ -540,6 +562,42 @@ export const PRODUCTS = [
     description: "A durable faux leather sling bag tailored for modern women, featuring a geometric broad strap and detachable matching coin pouch.",
     features: ["Premium faux leather", "Spacious compartments", "Geometric broad strap", "Detachable coin pouch", "Made in India"],
     featured: true,
+  },
+  {
+    id: 112,
+    title: "ADISA Women's Stripe Check Crossbody Sling Bag | Gold Chain PU Leather",
+    group: "Women's",
+    category: "Accessories",
+    tag: "Best Deal",
+    image: img_112,
+    affiliateUrl: "https://link.amazon/B0iBLK7qh",
+    description: "Compact PU leather crossbody sling bag with a multicolor stripe pattern, gold chain strap, and magnetic flap closure for stylish everyday use.",
+    features: [
+      "Multicolor stripe and check PU leather design",
+      "Gold chain adjustable strap",
+      "Magnetic flap closure",
+      "2 compartments and 1 pocket",
+      "Compact size: 7.25 x 2.25 x 5.5 inches"
+    ],
+    featured: false,
+  },
+  {
+    id: 111,
+    title: "Lyrovo Travel Crossbody Crescent Bag for Women | Half Moon Hobo Shoulder Sling Bag",
+    group: "Women's",
+    category: "Accessories",
+    tag: "Best Seller",
+    image: img_111,
+    affiliateUrl: "https://link.amazon/B0cUZ4PE3",
+    description: "Soft lightweight nylon crescent half-moon crossbody bag with an adjustable wide strap and zip pockets, ideal for travel, daily use, and casual outings.",
+    features: [
+      "Soft lightweight nylon with polyester lining",
+      "Crescent half-moon hobo design",
+      "Main zip compartment with inner pocket",
+      "Front zip pocket with braided pull",
+      "Adjustable wide strap for comfort"
+    ],
+    featured: false,
   },
   {
     id: 51,
@@ -856,6 +914,24 @@ export const PRODUCTS = [
       "Soft breathable rayon viscose fabric",
       "Coordinated straight pant included",
       "Suitable for casual, office and daily wear"
+    ],
+    featured: false,
+  },
+  {
+    id: 109,
+    title: "LookMark Women's Floral Printed Cotton Blend Kurta and Palazzo Set",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Best Deal",
+    image: img_109,
+    affiliateUrl: "https://link.amazon/B0gz1R9Nq",
+    description: "Bold pink floral printed cotton blend kurta with a V-neck and 3/4 sleeves, paired with a matching palazzo for a complete festive and casual ethnic look.",
+    features: [
+      "Bold large floral and leaf print design",
+      "Chic V-neck with 3/4 sleeves",
+      "Knee length flattering cut",
+      "Matching coordinated palazzo included",
+      "Versatile for casual, office and festive wear"
     ],
     featured: false,
   },
