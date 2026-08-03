@@ -111,6 +111,11 @@ import img_109 from "../assets/images/products/109.webp";
 import img_110 from "../assets/images/products/110.webp";
 import img_111 from "../assets/images/products/111.webp";
 import img_112 from "../assets/images/products/112.webp";
+import img_113 from "../assets/images/products/113.webp";
+import img_114 from "../assets/images/products/114.webp";
+import img_115 from "../assets/images/products/115.webp";
+import img_116 from "../assets/images/products/116.webp";
+import img_117 from "../assets/images/products/117.webp";
 
 export const PRODUCTS = [
 
@@ -481,6 +486,42 @@ export const PRODUCTS = [
     ],
     featured: false,
   },
+  {
+    id: 115,
+    title: "Centrino Sandal for Men | Grip Insole Cushioned Casual Comfort Sandal (9281)",
+    group: "Men's",
+    category: "Footwear",
+    tag: "Best Value",
+    image: img_115,
+    affiliateUrl: "https://link.amazon/B0cNiGRhc",
+    description: "Dark brown thong strap casual sandal with a breathable upper, extra cushioned insole, and grip stability sole for all-day comfort and daily wear.",
+    features: [
+      "Breathable upper with cushioned lining",
+      "Extra cushioned insole for all-day comfort",
+      "Grip sole for stability",
+      "Moisture-resistant bacteria-inhibiting build",
+      "Clean minimalist thong strap design"
+    ],
+    featured: false,
+  },
+  {
+    id: 116,
+    title: "SPARX Men SM-734 Casual Sneakers | White Cushioned Breathable Daily Wear Shoes",
+    group: "Men's",
+    category: "Footwear",
+    tag: "Best Amazon Find",
+    image: img_116,
+    affiliateUrl: "https://link.amazon/B0eQpwENT",
+    description: "Clean all-white casual sneakers with a breathable upper, soft cushioned footbed, and durable rubber sole for comfortable all-day daily wear.",
+    features: [
+      "Breathable textured upper",
+      "Soft cushioned footbed",
+      "Durable strong-stitched build",
+      "Lightweight for all-day wear",
+      "Versatile for home, casual and travel"
+    ],
+    featured: false,
+  },
 
   // ─── Men's → Accessories ─────────────────────────────
   {
@@ -578,6 +619,24 @@ export const PRODUCTS = [
       "Magnetic flap closure",
       "2 compartments and 1 pocket",
       "Compact size: 7.25 x 2.25 x 5.5 inches"
+    ],
+    featured: false,
+  },
+  {
+    id: 113,
+    title: "ANNI Designer Cotton Short Kurti for Women | Embroidered V-Neck Long Sleeve",
+    group: "Women's",
+    category: "Fashion",
+    tag: "Best Value",
+    image: img_113,
+    affiliateUrl: "https://www.amazon.in/gp/product/B0GZZXHM3P?smid=A1WYWER0W24N8S&th=1&psc=1&linkCode=ll2&tag=budgetpicks00-21&linkId=d989c50851a5797732b9ae09058acd27&ref_=as_li_ss_tlhttps://www.amazon.in/gp/product/B0GZZXHM3P?smid=A1WYWER0W24N8S&th=1&psc=1&linkCode=ll2&tag=budgetpicks00-21&linkId=d989c50851a5797732b9ae09058acd27&ref_=as_li_ss_tl",
+    description: "Dark brown viscose short kurti with golden floral embroidery, V-neck, and long flared sleeves for elegant ethnic everyday and festive styling.",
+    features: [
+      "Golden floral embroidery throughout",
+      "Soft comfortable viscose fabric",
+      "V-neck with long flared sleeves",
+      "Hip-covering short kurti length",
+      "Versatile for daily, office and festive wear"
     ],
     featured: false,
   },
@@ -1032,6 +1091,24 @@ export const PRODUCTS = [
     ],
     featured: false,
   },
+  {
+    id: 117,
+    title: "Mochi Women Block Heel Sandal | Black Cut-Out Woven Slingback",
+    group: "Women's",
+    category: "Footwear",
+    tag: "Best Value",
+    image: img_117,
+    affiliateUrl: "https://link.amazon/B07vyAdUx",
+    description: "Black synthetic block heel sandal with an intricate cut-out woven upper and slingback strap, offering stylish stable comfort for casual and party wear.",
+    features: [
+      "Intricate cut-out woven upper design",
+      "Sturdy 2-inch block heel",
+      "Secure slingback ankle strap",
+      "Synthetic durable material",
+      "Suitable for casual and party occasions"
+    ],
+    featured: false,
+  },
 
   // ─── Women's → Beauty & Care ─────────────────────────
   {
@@ -1156,6 +1233,24 @@ export const PRODUCTS = [
       "Expressive soft face design",
       "Reinforced stitching for durability",
       "Great gift for birthdays and festive occasions"
+    ],
+    featured: false,
+  },
+  {
+    id: 114,
+    title: "HUG n FEEL Capybara 25cm Plush Soft Toy | Stuffed Animal for Kids & Adults",
+    group: "Kids",
+    category: "Toys & Activities",
+    tag: "Best Amazon Find",
+    image: img_114,
+    affiliateUrl: "https://link.amazon/B0dRn5jek",
+    description: "Realistic 25cm capybara plush toy made from premium soft fabric with secure stitching, perfect as a cuddly gift for kids, teens, and adults.",
+    features: [
+      "Realistic capybara design in 25cm size",
+      "Premium high-grade ultra-soft plush fabric",
+      "Non-toxic skin-safe materials",
+      "Secure durable stitching",
+      "Versatile as gift, bedtime buddy or decor"
     ],
     featured: false,
   },
